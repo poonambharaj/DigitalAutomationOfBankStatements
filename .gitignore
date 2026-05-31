@@ -1,0 +1,23 @@
+# API keys and secrets
+.claude/References/.env
+*.env
+
+# Downloaded PDFs (large binaries — keep SQL outputs only)
+.claude/References/NewBanksIdentified/**/*.pdf
+
+# Browser automation state
+.playwright-mcp/
+
+# Screenshots and debug artefacts
+*.png
+login_page.png
+test_results_*.txt
+postprocess.py
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.vscode/
