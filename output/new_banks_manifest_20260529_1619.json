@@ -1,0 +1,49 @@
+{
+  "source": "https://app-web.statementrec.com/app/index#allreports",
+  "report": "Digital (Not Auto-Processed)",
+  "extracted_at": "2026-05-29T16:19:00Z",
+  "date_filter": "2026-05-29 to 2026-05-29",
+  "total_projects_reviewed": 62,
+  "supported_banks_count": 28,
+  "unsupported_banks_count": 4,
+  "unsupported_banks": [
+    {
+      "bank": "FIRST FOUNDATION BANK",
+      "project": "02701-ChinnAlice",
+      "pages": 70,
+      "pdf_saved": ".claude/References/NewBanksIdentified/FIRST_FOUNDATION_BANK/02701-ChinnAlice.pdf",
+      "reason": "No script found in DigitalScripts.sql for 'First Foundation' bank"
+    },
+    {
+      "bank": "carno capital",
+      "project": "Northcott",
+      "pages": 131,
+      "pdf_saved": ".claude/References/NewBanksIdentified/carno_capital/Northcott.pdf",
+      "reason": "No script found in DigitalScripts.sql for 'Carno Capital' bank"
+    },
+    {
+      "bank": "isle of man bank",
+      "project": "M&K Autos",
+      "pages": 8,
+      "pdf_saved": ".claude/References/NewBanksIdentified/isle_of_man_bank/M&K_Autos.pdf",
+      "reason": "No script found in DigitalScripts.sql for 'Isle of Man Bank'"
+    },
+    {
+      "bank": "ZEMPLER",
+      "project": "Car Claim Specialists",
+      "pages": 12,
+      "pdf_saved": ".claude/References/NewBanksIdentified/ZEMPLER/Car_Claim_Specialists.pdf",
+      "reason": "No script found in DigitalScripts.sql for 'Zempler' bank"
+    }
+  ],
+  "all_banks_seen": [
+    "OTHER", "Nat West,Santander", "UlsterBank", "Metro Bank", "Barclay",
+    "HSBC", "Revolut", "Lloyds TSB", "Other", "First National Bank",
+    "Starling Bank", "Tide bank", "Natwest_RG", "RBS",
+    "Bank Of Ireland,funding circle", "tide", "Commonwealth Bank", "Amex",
+    "Barclays,HSBC", "NA,Standard Bank", "Wise Business", "Standard Bank",
+    "BNP PARIBAS", "FIRST FOUNDATION BANK", "Monzo Bank", "Capital One",
+    "Danske", "fnb", "Revolut Business", "HSBC,Santander",
+    "carno capital,other", "isle of man bank", "ZEMPLER"
+  ]
+}
