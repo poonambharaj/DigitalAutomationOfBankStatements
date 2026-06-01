@@ -1,0 +1,20 @@
+{
+  "harvested_at": "2026-06-01T09:00:00Z",
+  "date_range": "2026-06-01 to 2026-06-01",
+  "excel_report": "output/digital_not_auto_processed_20260601.xlsx",
+  "new_banks_requiring_scripts": [
+    {
+      "bank_name": "ZEMPLER",
+      "normalised_name": "Zempler Bank",
+      "project": "Car Claim Specialists",
+      "pages": 12,
+      "pdf_path": ".claude/References/NewBanksIdentified/ZEMPLER/Car_Claim_Specialists.pdf",
+      "script_needed": true,
+      "reason": "No script found in DigitalScripts.sql for Zempler Bank"
+    }
+  ],
+  "summary": {
+    "total_new_banks": 1,
+    "pdfs_confirmed": 1
+  }
+}
