@@ -1,0 +1,179 @@
+{
+  "discovery_source": "statementrec",
+  "date_range": "2026-06-02",
+  "total_projects": 21,
+  "unsupported_projects": [
+    {
+      "number": 1,
+      "project_name": "YE 2026",
+      "project_url": "https://app-web.statementrec.com/app#appuploadfiles/3a1ab417-462e-dbda-310b-413c57b11c78",
+      "banks": [
+        "Barclays",
+        "Halifax",
+        "JAJA"
+      ],
+      "pages": 8,
+      "unsupported_banks": [
+        "JAJA"
+      ]
+    },
+    {
+      "number": 2,
+      "project_name": "Greenwich & Co",
+      "project_url": "https://app-web.statementrec.com/app#appuploadfiles/3a1d2776-b1d2-3353-c502-8c2d1c0ad6b9",
+      "banks": [
+        "National Bank Fujariah"
+      ],
+      "pages": 3,
+      "unsupported_banks": [
+        "National Bank Fujariah"
+      ]
+    },
+    {
+      "number": 3,
+      "project_name": "Brown Coffee House LLC",
+      "project_url": "https://app-web.statementrec.com/app#appuploadfiles/3a21968b-3202-b974-dc84-d726afe42a9a",
+      "banks": [
+        "OTHER"
+      ],
+      "pages": 15,
+      "unsupported_banks": [
+        "OTHER"
+      ]
+    },
+    {
+      "number": 4,
+      "project_name": "Flat E 22 Cleveland Square Limited",
+      "project_url": "https://app-web.statementrec.com/app#appuploadfiles/3a2198cc-d60e-6c9d-e846-485c5524fd52",
+      "banks": [
+        "National Bank"
+      ],
+      "pages": 2,
+      "unsupported_banks": [
+        "National Bank"
+      ]
+    }
+  ],
+  "supported_projects": [
+    {
+      "project_name": "Amaris.AI Pte Ltd",
+      "banks": [
+        "OCBC Bank"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "DJ Jacobs",
+      "banks": [
+        "First National Bank"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Valuline 119 (Pty) Ltd",
+      "banks": [
+        "ABSA"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Eleva Services (UK) Limited",
+      "banks": [
+        "OCBC Bank"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Golden Mile Enterprise",
+      "banks": [
+        "First National Bank"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "JH",
+      "banks": [
+        "ANZ"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Dr Mc Medical Services Limited",
+      "banks": [
+        "Revolut Business"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Graffiti Designs Pty Ltd",
+      "banks": [
+        "First National Bank"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Stodasize (Pty) Ltd",
+      "banks": [
+        "First National Bank"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "9551-6084 Québec Inc. (PUFFS)",
+      "banks": [
+        "Royal Bank Of Canada"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Ebfitness",
+      "banks": [
+        "nab"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "FNB GOLD BUSINESS ACCOUNT YEAR 2025",
+      "banks": [
+        "First National Bank"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "B Bonnell",
+      "banks": [
+        "First National Bank",
+        "METTLE"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Dr Sandra Pather",
+      "banks": [
+        "Investec"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "PRIVATE CLIENTS CREDIT CARD 4480 0803 1327 7009 YEAR 2022",
+      "banks": [
+        "First National Bank"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "Lawton - Ord Minnett - 2023FY",
+      "banks": [
+        "Lloyds TSB"
+      ],
+      "status": "already_scripted"
+    },
+    {
+      "project_name": "White Heat Restaurant Limited",
+      "banks": [
+        "Lloyds TSB"
+      ],
+      "status": "already_scripted"
+    }
+  ]
+}
