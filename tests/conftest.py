@@ -1,52 +1,48 @@
-import json
+"""Shared pytest fixtures for DigitalPDF extraction script tests.
+
+Each project test file is self-contained with its own module-scoped fixtures.
+This conftest provides:
+  - CLI options consumed by the agent spec (--sql-file, --document-type, etc.)
+  - Shared fixtures for any test file that opts in via request.config
+
+Individual project test files override these with module-scoped fixtures bound
+to their own SQL_PATH constant, so there is no cross-project state leakage.
+"""
+
 import re
 import pytest
 from pathlib import Path
 
-SQL_FILE = Path("output/digital_scripts/ZEMPLER_.sql")
 
-
-@pytest.fixture(scope="session")
-def sql_content():
-    return SQL_FILE.read_text(encoding="utf-8")
-
-
-@pytest.fixture(scope="session")
-def commands_text(sql_content):
-    # Extract Commands value from digitalpdf$script INSERT
-    # Handles both real newlines and \n literals
-    # The Commands field is the 3rd value: VALUES (id,'Name','<commands>',...)
-    match = re.search(
-        r"INSERT INTO `digitalpdf\$script`[^V]*VALUES\s*\(\s*\d+\s*,\s*'[^']*'\s*,\s*'((?:[^'\\]|\\.)*)'",
-        sql_content,
-        re.DOTALL,
+def pytest_addoption(parser):
+    parser.addoption(
+        "--sql-file", action="store", default=None,
+        help="Path to the SQL file under test",
     )
-    assert match, "Could not extract Commands field from digitalpdf$script INSERT"
-    raw = match.group(1)
-    # Normalise: convert \n literals to real newlines if present
-    # Also handle \\n (double backslash-n in raw SQL)
-    normalized = raw.replace("\\n", "\n")
-    # Handle escaped quotes: \" or \\\"
-    normalized = normalized.replace('\\"', '"')
-    normalized = normalized.replace("\\'", "'")
-    return normalized
-
-
-@pytest.fixture(scope="session")
-def doc_id_insert(sql_content):
-    # Extract the full digitalpdf$documentidentification INSERT row
-    match = re.search(
-        r"INSERT INTO `digitalpdf\$documentidentification`.*?;",
-        sql_content,
-        re.DOTALL,
+    parser.addoption(
+        "--document-type", action="store", default="bank_statement",
+        help="Document type: bank_statement | invoice | credit_note",
     )
-    assert match, "Could not find digitalpdf$documentidentification INSERT"
-    return match.group(0)
+    parser.addoption(
+        "--expected-script-id", action="store", type=int, default=None,
+        help="Expected script Id value in the SQL file",
+    )
+    parser.addoption(
+        "--ids-are-placeholders", action="store_true", default=False,
+        help="Set when placeholder Id 9999 is expected in the SQL",
+    )
 
 
-@pytest.fixture(scope="session")
-def doc_id_values(doc_id_insert):
-    # Extract VALUES (...) content
-    match = re.search(r"VALUES\s*\((.+)\)\s*;", doc_id_insert, re.DOTALL)
-    assert match, "Could not extract VALUES from documentidentification INSERT"
-    return match.group(1)
+@pytest.fixture(scope="module")
+def document_type(request):
+    return request.config.getoption("--document-type", default="bank_statement")
+
+
+@pytest.fixture(scope="module")
+def expected_script_id(request):
+    return request.config.getoption("--expected-script-id", default=None)
+
+
+@pytest.fixture(scope="module")
+def ids_are_placeholders(request):
+    return request.config.getoption("--ids-are-placeholders", default=False)

@@ -1,0 +1,28 @@
+{
+  "tested_at": "2026-06-03T00:00:00Z",
+  "all_passed": true,
+  "total_projects": 1,
+  "summary": {
+    "passed": 27,
+    "failed": 0,
+    "skipped": 0,
+    "errors": 0
+  },
+  "projects": [
+    {
+      "project_name": "YE 2026 (JAJA)",
+      "bank": "JAJA",
+      "sql_file": "C:/dev/AutomationOfDigitalScripts/output/digital_scripts/JAJA_20260603.sql",
+      "document_type": "credit_card_bank_statement",
+      "verification_rule_set_id": 4,
+      "test_file": "C:/dev/AutomationOfDigitalScripts/tests/test_JAJA_20260603.py",
+      "status": "passed",
+      "failed_tests": [],
+      "missing_variables": [],
+      "notes": "ids_are_placeholders=true — both script Id and definition ScriptId are 9999. The digitalpdf$script INSERT uses a hardcoded ModificationTimeUtc ('2026-01-01 00:00:00') rather than UTC_TIMESTAMP(); the definition INSERT uses UTC_TIMESTAMP() correctly. The manifest document_type was 'credit_note' but the SQL targets a credit card bank statement (VerificationRuleSetId=4, $features includes CREDIT_CARD). Required variable set validated against the bank_statement list. Two test-code bugs were found and fixed during this run: (1) $features regex needed backslash-dquote delimiters to match the DSL encoding; (2) ContainsText JSON required \\\" unescaping before json.loads.",
+      "jira_ticket_key": null,
+      "jira_comment_posted": false
+    }
+  ],
+  "next_step": "Proceed to code-guardian"
+}

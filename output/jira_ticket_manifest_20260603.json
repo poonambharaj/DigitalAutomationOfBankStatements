@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-06-03T00:00:00Z",
+  "source_manifest": "output/discovery_manifest_20260602_0730.json",
+  "total_unsupported": 1,
+  "tickets_created": 0,
+  "tickets_commented": 0,
+  "jira_create_issue_available": false,
+  "jira_auth_status": "expired_401",
+  "jira_note": "jira_create_issue not available in org MCP. Auth token also expired at demo time. Downstream agents will skip Jira comments and continue. Re-authenticate via Atlassian MCP to enable Jira integration.",
+  "projects": [
+    {
+      "name": "YE 2026",
+      "bank": "JAJA",
+      "pages": 8,
+      "pdf_saved": "C:\\dev\\AutomationOfDigitalScripts\\.claude\\References\\NewBanksIdentified\\JAJA\\JAJA_28_May_2026.pdf",
+      "status": "unsupported",
+      "jira_ticket_key": null,
+      "jira_ticket_url": null,
+      "jira_ticket_status": "skipped_auth_failure",
+      "jira_ticket_error": "401 Unauthorized — MCP token expired"
+    }
+  ],
+  "next_step": "Pass this manifest to digital-script-builder"
+}
