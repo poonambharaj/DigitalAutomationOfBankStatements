@@ -12,7 +12,7 @@ tools: >
   Read,
   Write
 model: global.anthropic.claude-sonnet-4-6
-permissionMode: default
+permissionMode: acceptEdits
 ---
 
 # Jira ticket creator
@@ -203,6 +203,7 @@ Return this JSON as your final response to the main orchestrator.
 | Situation | Action |
 |---|---|
 | Jira auth fails (credentials invalid) | STOP. Report auth error. Do not continue. |
+| `jira_create_issue` tool not available (managed MCP server limitation) | Mark all projects `"jira_ticket_status": "manual_required"` with `"jira_ticket_error": "jira_create_issue not available in managed MCP server — IT request required"`. Return manifest so pipeline can continue without ticket keys. |
 | Jira project key not found | STOP. Report which key was expected and not found. |
 | Ticket creation fails for one project | Log error, mark `"jira_ticket_status": "failed"`, continue with next project |
 | PDF path missing from manifest | Mark as error, skip ticket creation for that project |

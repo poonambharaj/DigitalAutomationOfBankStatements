@@ -1,8 +1,9 @@
 ---
 name: code-guardian
 description: Reviews all code produced in the current task for correctness, security vulnerabilities, and best-practice adherence. Returns findings grouped by severity. Invoke this agent after test-engineer has confirmed tests pass, before github-deployer runs.
-tools: Read, Grep, Glob
-model: claude-haiku-4-5-20251001
+tools: Read, Grep, Glob, mcp__global-atlassian__jira_add_comment
+model: global.anthropic.claude-sonnet-4-6
+permissionMode: acceptEdits
 ---
 
 # Code guardian
@@ -214,6 +215,7 @@ Flag as a **warning** if any required variable is absent from the Commands strin
 ## Summary
 Critical: 1 | Warning: 2 | Suggestion: 1
 Status: BLOCKED — resolve critical findings before deploying.
+Jira: comment posted — DS-1234
 ```
 
 If no issues found:
@@ -231,4 +233,62 @@ If no issues found:
 ## Summary
 Critical: 0 | Warning: 0 | Suggestion: 0
 Status: APPROVED — all files are clear for deployment.
+Jira: comment posted — DS-1234
 ```
+
+If no `jira_ticket_key` was supplied:
+
+```
+## Summary
+Critical: 0 | Warning: 0 | Suggestion: 0
+Status: APPROVED — all files are clear for deployment.
+Jira: skipped — no jira_ticket_key in manifest
+```
+
+---
+
+## Step 6 — Post code review to Jira ticket
+
+After writing the review report, check whether the orchestrator supplied a
+`jira_ticket_key` (passed through from `jira-ticket-creator` via the manifest).
+If no key is present, skip this step entirely and note `Jira: skipped` in the Summary.
+
+Post one comment per ticket key using `mcp__global-atlassian__jira_add_comment`.
+
+**When `Status: APPROVED` (zero critical findings):**
+
+```
+issue_key: {jira_ticket_key}
+comment:
+h4. ✓ Code review: APPROVED
+
+All SQL, DSL, and Python code is correct.
+- Schema: ✓
+- DSL quality: ✓
+- Identification: ✓
+- Security: ✓
+
+h4. Ready for deployment
+Next step: Push to GitHub via github-deployer
+```
+
+**When `Status: BLOCKED` (one or more critical findings):**
+
+```
+issue_key: {jira_ticket_key}
+comment:
+h4. ⚠ Code review: ISSUES FOUND
+
+The following critical issues must be resolved before deployment:
+
+{List each critical finding verbatim from the ## Critical section above}
+
+Please fix and resubmit to code-guardian.
+```
+
+Include warning-level findings in the blocked comment only if there are no
+criticals — do not mix severity levels in the same comment block.
+
+If the comment call fails, append `Jira: comment failed — {error message}` to
+the Summary line instead of `Jira: comment posted`. Do not fail the review
+pipeline over a Jira API error.

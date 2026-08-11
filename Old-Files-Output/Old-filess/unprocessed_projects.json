@@ -1,0 +1,108 @@
+{
+  "source": "https://app-web.statementrec.com/app/index#allreports",
+  "report": "Digital (Not Auto-Processed)",
+  "extracted_at": "2026-05-29T08:18:00Z",
+  "date_filter": "2026-05-29 to 2026-05-29",
+  "total_projects": 14,
+  "unprocessed_count": 14,
+  "unprocessed_projects": [
+    {
+      "name": "NE Commercial Lettings Ltd",
+      "bank": "Natwest_RG",
+      "pages": 2,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "Sandpiper Gardens & Glass Inc",
+      "bank": "Barclay",
+      "pages": 9,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "Anisan Fashions UK Limited",
+      "bank": "Amex",
+      "pages": 11,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "T & D I Allen & Son",
+      "bank": "Barclays",
+      "pages": 6,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "Zach",
+      "bank": "NA,Standard Bank",
+      "pages": 9,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "Matosse Holdings",
+      "bank": "Standard Bank",
+      "pages": 25,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "02701-ChinnAlice",
+      "bank": "FIRST FOUNDATION BANK",
+      "pages": 70,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "AU Client 04",
+      "bank": "HSBC",
+      "pages": 12,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "C.B Collects Ltd",
+      "bank": "Monzo Bank",
+      "pages": 22,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "04.30.2026-1792",
+      "bank": "Capital One",
+      "pages": 5,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "ELTRADE ELECTRICAL LTD",
+      "bank": "HSBC",
+      "pages": 106,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "YE Nov 2025",
+      "bank": "Danske",
+      "pages": 26,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "Bank statements",
+      "bank": "fnb",
+      "pages": 15,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    },
+    {
+      "name": "Westwell Green Ltd",
+      "bank": "Standard Bank",
+      "pages": 3,
+      "status": "Digital Not Auto-Processed",
+      "reason_flagged": "Listed in Digital (Not Auto-Processed) report"
+    }
+  ]
+}

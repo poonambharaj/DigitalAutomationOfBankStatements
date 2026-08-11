@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-06-02T00:00:00Z",
+  "total_projects": 1,
+  "successful": 1,
+  "failed": 0,
+  "results": [
+    {
+      "project_name": "JAJA",
+      "pdf_path": "C:/dev/AutomationOfDigitalScripts/.claude/References/NewBanksIdentified/JAJA/JAJA_28_May_2026.pdf",
+      "source_sql": "C:/dev/AutomationOfDigitalScripts/.claude/References/NewBanksIdentified/JAJA/JAJA_28_May_2026.sql",
+      "sql_file": "C:/dev/AutomationOfDigitalScripts/output/digital_scripts/JAJA_20260602_0000.sql",
+      "script_id": 9999,
+      "def_id_start": 9999,
+      "def_id_end": 9999,
+      "def_rows_generated": 1,
+      "document_type": "bank_statement",
+      "verification_rule_set_id": 4,
+      "status": "success",
+      "error": null,
+      "jira_comment_posted": false
+    }
+  ],
+  "next_available_script_id": 10000,
+  "next_available_def_id": 10000,
+  "ids_are_placeholders": true
+}

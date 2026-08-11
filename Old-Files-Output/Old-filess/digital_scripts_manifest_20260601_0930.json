@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-06-01T09:30:00Z",
+  "total_projects": 1,
+  "successful": 1,
+  "failed": 0,
+  "results": [
+    {
+      "project_name": "Car Claim Specialists",
+      "bank": "Zempler Bank",
+      "pdf_path": "C:/dev/AutomationOfDigitalScripts/.claude/References/NewBanksIdentified/ZEMPLER/Car_Claim_Specialists.pdf",
+      "source_sql": "C:/dev/AutomationOfDigitalScripts/.claude/References/NewBanksIdentified/ZEMPLER/Car_Claim_Specialists.sql",
+      "sql_file": "C:/dev/AutomationOfDigitalScripts/output/digital_scripts/ZEMPLER_.sql",
+      "script_id": 9999,
+      "def_id_start": 9999,
+      "def_id_end": 9999,
+      "def_rows_generated": 1,
+      "variables_extracted": [
+        "$source",
+        "$features",
+        "$periodBufferDays",
+        "$accountName",
+        "$accountNumber",
+        "$periodFrom",
+        "$periodTo",
+        "$openingBalance",
+        "$closingBalance",
+        "$transactions"
+      ],
+      "document_type": "bank_statement",
+      "verification_rule_set_id": 4,
+      "status": "success",
+      "error": null,
+      "jira_comment_posted": false,
+      "notes": "One correction applied post-generate_script.py: replaced hardcoded client name 'Stephen Walton' in $accountName command with generic 'Account held under company name:' pattern, consistent with reference SQL. Footer-delete lines and multi-page header/footer handling aligned to Zemplar_Bank.sql reference."
+    }
+  ],
+  "next_available_script_id": 9999,
+  "next_available_def_id": 9999,
+  "ids_are_placeholders": true
+}

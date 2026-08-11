@@ -7,6 +7,7 @@ Validates:
   C. Document identification quality (ContainsText phrases, patterns)
   D. DSL conventions (source, features, periodBufferDays)
   E. ScriptId consistency and IsDeleted values
+  F. No hardcoded client-specific strings in extraction rules
 """
 
 import json
@@ -21,8 +22,11 @@ IDS_ARE_PLACEHOLDERS = True   # Both IDs are 9999 (placeholder — real IDs assi
 EXPECTED_VRS_ID = 4           # bank_statement
 DOCUMENT_TYPE = "bank_statement"
 
+# All 10 required variables per input manifest
 REQUIRED_VARIABLES = [
     "$source",
+    "$features",
+    "$periodBufferDays",
     "$accountName",
     "$accountNumber",
     "$periodFrom",
@@ -40,6 +44,12 @@ REQUIRED_CONTAINS_TEXT_PHRASES = [
     "Business Account",
 ]
 
+# Strings that must NOT appear in the extraction rules (client-specific data)
+CLIENT_SPECIFIC_STRINGS = [
+    "Car Claim Specialists",
+    "Stephen Walton",
+]
+
 # ── Fixtures ─────────────────────────────────────────────────────────────────
 
 
@@ -53,9 +63,9 @@ def sql_content():
 def commands_text(sql_content):
     """Extract and normalise the DSL Commands field from the script INSERT.
 
-    The SQL file may store Commands as a multi-line string with real newlines
-    (when the INSERT spans multiple lines) or with \\n escape sequences.
-    This fixture handles both forms and returns a string with real newlines.
+    The SQL stores double-quotes as \\" inside the single-quoted Commands string.
+    This fixture unescapes \\n line breaks, \\' single-quotes, and \\" double-quotes
+    so that DSL content comparisons work against the actual DSL syntax.
     """
     match = re.search(
         r"INSERT INTO `digitalpdf\$script`[^)]*\)\s*VALUES\s*\(\s*\d+\s*,\s*'[^']*'\s*,\s*'((?:[^'\\]|\\.)*)'",
@@ -68,8 +78,9 @@ def commands_text(sql_content):
         "Id, Name, Commands, ModificationTimeUtc, IsDeleted."
     )
     raw = match.group(1)
-    # Unescape: convert \\n literals to real newlines, and \\' to single quote
-    return raw.replace(r"\n", "\n").replace(r"\'", "'")
+    # Unescape in dependency order: \\" -> ", \' -> ', \n -> newline
+    unescaped = raw.replace('\\\\"', '"').replace(r"\'", "'").replace(r"\n", "\n")
+    return unescaped
 
 
 @pytest.fixture(scope="module")
@@ -112,6 +123,14 @@ def test_sql_file_exists():
     assert SQL_PATH.exists(), (
         f"SQL file not found: {SQL_PATH}. "
         "Ensure digital-script-builder has written the file before running tests."
+    )
+
+
+def test_sql_file_non_empty(sql_content):
+    """SQL file must contain at least one non-blank character."""
+    assert sql_content.strip(), (
+        f"SQL file is empty: {SQL_PATH}. "
+        "digital-script-builder must produce a non-empty output file."
     )
 
 
@@ -234,11 +253,9 @@ def test_contains_text_is_valid_json(doc_id_insert):
 def test_creator_or_producer_pattern_set(doc_id_insert):
     """At least one of CreatorPattern or ProducerPattern must be non-NULL."""
     # Column order: Id,Name,TitlePattern,AuthorPattern,CreatorPattern,ProducerPattern,...
-    # After VALUES( extract first 6 comma-separated values
     match = re.search(r"VALUES\s*\(([^)]+)\)", doc_id_insert, re.DOTALL)
     assert match, "No VALUES clause found in definition INSERT"
     values_str = match.group(1)
-    # Split on top-level commas (none of these values contain nested commas)
     fields = [f.strip() for f in re.split(r",\s*", values_str)]
     # Indices: 0=Id,1=Name,2=TitlePattern,3=AuthorPattern,4=CreatorPattern,5=ProducerPattern
     assert len(fields) >= 6, (
@@ -253,21 +270,36 @@ def test_creator_or_producer_pattern_set(doc_id_insert):
 
 
 def test_verification_rule_set_id_correct(doc_id_insert):
-    """VerificationRuleSetId must be 4 for bank_statement document type."""
-    matches = re.findall(r",\s*(\d+)\s*,\s*UTC_TIMESTAMP", doc_id_insert)
-    assert matches, (
-        "Could not find VerificationRuleSetId field (the integer before UTC_TIMESTAMP) "
-        "in documentidentification INSERT."
+    """VerificationRuleSetId must be 4 for bank_statement document type.
+
+    Extracted positionally: the 13th field (0-indexed: 12) in the definition VALUES,
+    which is ScriptId=11, VerificationRuleSetId=12 per the column definition.
+    """
+    match = re.search(r"VALUES\s*\(([^)]+)\)", doc_id_insert, re.DOTALL)
+    assert match, "No VALUES clause found in digitalpdf$documentidentification INSERT"
+    values_str = match.group(1)
+    # Split on commas not inside brackets/quotes (simple split is safe for this schema)
+    fields = [f.strip() for f in re.split(r",\s*", values_str)]
+    # Column order: Id(0), Name(1), TitlePattern(2), AuthorPattern(3), CreatorPattern(4),
+    #   ProducerPattern(5), Version(6), PageCount(7), SignatureInfo(8), ContainsText(9),
+    #   ExcludesText(10), ScriptId(11), VerificationRuleSetId(12), ModificationTimeUtc(13), IsDeleted(14)
+    assert len(fields) >= 13, (
+        f"Definition INSERT has fewer than 13 fields; cannot extract VerificationRuleSetId. "
+        f"Fields found: {len(fields)}"
     )
-    for vrs in matches:
-        assert int(vrs) == EXPECTED_VRS_ID, (
-            f"VerificationRuleSetId is {vrs}, expected {EXPECTED_VRS_ID} for bank_statement. "
-            "Valid values: 2=basic invoice, 3=invoice+VAT, 4=bank statement."
-        )
+    vrs_id = fields[12].strip("'\" ")
+    assert vrs_id.isdigit(), (
+        f"VerificationRuleSetId field (position 12) is not a digit: {vrs_id!r}. "
+        "Check the column order in the INSERT."
+    )
+    assert int(vrs_id) == EXPECTED_VRS_ID, (
+        f"VerificationRuleSetId is {vrs_id}, expected {EXPECTED_VRS_ID} for bank_statement. "
+        "Valid values: 2=basic invoice, 3=invoice+VAT, 4=bank statement."
+    )
 
 
 def test_signature_info_is_null(doc_id_insert):
-    """SignatureInfo field (position 9) must be NULL."""
+    """SignatureInfo field (position 8, 0-indexed) must be NULL."""
     match = re.search(r"VALUES\s*\(([^)]+)\)", doc_id_insert, re.DOTALL)
     assert match, "No VALUES clause found in definition INSERT"
     fields = [f.strip() for f in re.split(r",\s*", match.group(1))]
@@ -290,7 +322,8 @@ def test_source_variable_assigned(commands_text):
     match = re.search(r'\$source\s*=\s*"([^"]*)"', commands_text)
     assert match, (
         '$source must be assigned using: $source = "BankName". '
-        "Assignment not found in Commands."
+        "Assignment not found in Commands. "
+        "Verify the commands_text fixture unescapes double-quotes from the SQL encoding."
     )
     value = match.group(1).strip()
     assert len(value) > 0, (
@@ -367,7 +400,7 @@ def test_carry_forward_rows_deleted(commands_text):
     assert has_delete, (
         "No 'delete all lines' command found. "
         "Carry-forward / continued rows between pages must be cleaned up. "
-        "Example: delete all lines starting \"BROUGHT FORWARD\""
+        'Example: delete all lines starting "BROUGHT FORWARD"'
     )
 
 
@@ -393,17 +426,26 @@ def test_is_deleted_zero_in_definition_insert(doc_id_insert):
 
 
 def test_script_id_matches_definition_script_id(sql_content, script_id):
-    """ScriptId in definition row must match Id in the script row."""
-    def_script_ids = re.findall(
-        r"INSERT INTO `digitalpdf\$documentidentification`.*?VALUES.*?,\s*(\d+)\s*,\s*\d+\s*,\s*UTC_TIMESTAMP",
+    """ScriptId in definition row must match Id in the script row.
+
+    Extracted positionally: ScriptId is the 12th field (0-indexed: 11) in the
+    definition INSERT column order.
+    """
+    def_rows = re.findall(
+        r"INSERT INTO `digitalpdf\$documentidentification`.*?VALUES\s*\(([^)]+)\)",
         sql_content,
         re.DOTALL,
     )
-    assert def_script_ids, (
-        "Could not extract ScriptId from digitalpdf$documentidentification INSERT. "
-        "Verify the column order matches the expected schema."
+    assert def_rows, (
+        "Could not find digitalpdf$documentidentification INSERT with VALUES clause."
     )
-    for def_script_id in def_script_ids:
+    for row in def_rows:
+        fields = [f.strip() for f in re.split(r",\s*", row)]
+        assert len(fields) >= 12, (
+            f"Definition row has fewer than 12 fields; cannot extract ScriptId. "
+            f"Fields found: {len(fields)}"
+        )
+        def_script_id = fields[11].strip("'\" ")
         assert def_script_id == script_id, (
             f"ScriptId mismatch: definition row references ScriptId={def_script_id} "
             f"but script row has Id={script_id}. "
@@ -421,3 +463,38 @@ def test_placeholder_id_noted(sql_content):
         "If real IDs have been assigned, set IDS_ARE_PLACEHOLDERS = False in this file "
         "and add test_no_placeholder_ids to verify the real IDs."
     )
+
+
+# ── Category F: No hardcoded client-specific strings ─────────────────────────
+
+
+@pytest.mark.parametrize("client_string", CLIENT_SPECIFIC_STRINGS)
+def test_no_hardcoded_client_string_in_commands(commands_text, client_string):
+    """Extraction rules must not contain client-specific strings.
+
+    DSL Commands extract structural patterns from the PDF layout; they must not
+    reference any specific account holder name, company name, or personal name.
+    Such strings would cause the script to fail for any other Zempler Bank customer.
+    """
+    assert client_string not in commands_text, (
+        f"Client-specific string {client_string!r} found in DSL Commands. "
+        "Extraction rules must be generic and work for any Zempler Bank customer. "
+        "Remove all references to specific account names, company names, or personal names."
+    )
+
+
+@pytest.mark.parametrize("client_string", CLIENT_SPECIFIC_STRINGS)
+def test_no_hardcoded_client_string_in_contains_text(doc_id_insert, client_string):
+    """Document identification ContainsText must not reference client-specific strings.
+
+    ContainsText phrases identify the bank/document type, not a specific customer.
+    """
+    # Extract ContainsText value only (not the whole INSERT)
+    match = re.search(r"'(\[.*?\])'", doc_id_insert, re.DOTALL)
+    if match:
+        contains_text = match.group(1)
+        assert client_string not in contains_text, (
+            f"Client-specific string {client_string!r} found in ContainsText field. "
+            "ContainsText must contain bank/document type phrases only, "
+            "not account holder or company names."
+        )

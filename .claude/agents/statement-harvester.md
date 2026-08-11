@@ -22,8 +22,8 @@ tools: >
   Write,
   Read,
   Glob
-model: claude-haiku-4-5-20251001
-permissionMode: default
+model: global.anthropic.claude-sonnet-4-6
+permissionMode: acceptEdits
 ---
 
 # Statement harvester

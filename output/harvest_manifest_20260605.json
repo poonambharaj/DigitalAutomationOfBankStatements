@@ -1,0 +1,1493 @@
+{
+  "date_filter_applied": "05/06/2026",
+  "all_projects": [
+    {
+      "project_name": "Robert Farrell",
+      "bank_name": "Bank Of Ireland",
+      "pages": 18,
+      "project_ref": "39dfaf43-c4f6-5c50-3613-8ee61d37c66f",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39dfaf43-c4f6-5c50-3613-8ee61d37c66f"
+    },
+    {
+      "project_name": "Cylch Meithrin Seiont a Pheblig",
+      "bank_name": "HSBC",
+      "pages": 5,
+      "project_ref": "39e26a0e-4c1a-9fd2-657a-ca1c1dec975d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39e26a0e-4c1a-9fd2-657a-ca1c1dec975d"
+    },
+    {
+      "project_name": "1399C Chic Flooring Ltd",
+      "bank_name": "MetroBank",
+      "pages": 6,
+      "project_ref": "39e38afd-c6c2-bf32-bea1-d406d0568cd8",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39e38afd-c6c2-bf32-bea1-d406d0568cd8"
+    },
+    {
+      "project_name": "Corpower Ocean Limited",
+      "bank_name": "Other",
+      "pages": 3,
+      "project_ref": "39e6e711-bd0c-67a6-543e-af94bc87ac28",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39e6e711-bd0c-67a6-543e-af94bc87ac28"
+    },
+    {
+      "project_name": "MCT (Devon) Ltd",
+      "bank_name": "Barclays",
+      "pages": 28,
+      "project_ref": "39e72f37-4a4d-a24c-86a9-d8a678467a07",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39e72f37-4a4d-a24c-86a9-d8a678467a07"
+    },
+    {
+      "project_name": "NEIZANNE (PTY) LTD",
+      "bank_name": "Other",
+      "pages": 1,
+      "project_ref": "39e7c9ff-47ec-88b0-01a9-c8046740c26f",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39e7c9ff-47ec-88b0-01a9-c8046740c26f"
+    },
+    {
+      "project_name": "Scarlet Films Ltd.",
+      "bank_name": "Revolut",
+      "pages": 2,
+      "project_ref": "39e90ebd-1371-3aa2-68d0-d4d6716c4350",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39e90ebd-1371-3aa2-68d0-d4d6716c4350"
+    },
+    {
+      "project_name": "Payne & Gammage",
+      "bank_name": "Lloyds TSB",
+      "pages": 7,
+      "project_ref": "39ec1796-4beb-fd00-12c3-6eb446238ed9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39ec1796-4beb-fd00-12c3-6eb446238ed9"
+    },
+    {
+      "project_name": "Bluestone Property Limited",
+      "bank_name": "NA",
+      "pages": 49,
+      "project_ref": "39eecfde-2eb5-ae62-df0c-c430081c51a9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39eecfde-2eb5-ae62-df0c-c430081c51a9"
+    },
+    {
+      "project_name": "AIB CC 3835 JAN - DEC",
+      "bank_name": "AIB",
+      "pages": 53,
+      "project_ref": "39ef0dad-cc35-7a81-7fc3-42370fa2f35c",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39ef0dad-cc35-7a81-7fc3-42370fa2f35c"
+    },
+    {
+      "project_name": "Nigel Croxford Builders",
+      "bank_name": "Barclay",
+      "pages": 10,
+      "project_ref": "39ef83d7-b54d-79e7-be32-f583cba0a9e9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39ef83d7-b54d-79e7-be32-f583cba0a9e9"
+    },
+    {
+      "project_name": "DRILLING PROJECT SERVICES SOUTH AFRICA",
+      "bank_name": "Tide bank",
+      "pages": 1,
+      "project_ref": "39f00957-297b-6935-4eac-82b7b2a3edfc",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f00957-297b-6935-4eac-82b7b2a3edfc"
+    },
+    {
+      "project_name": "CHA56 - Chameleon Eatery Limited",
+      "bank_name": "Natwest_RG",
+      "pages": 21,
+      "project_ref": "39f10f33-38fd-0ca3-ca3a-695b3bc70a61",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f10f33-38fd-0ca3-ca3a-695b3bc70a61"
+    },
+    {
+      "project_name": "Cardiff Web Limited",
+      "bank_name": "HSBC",
+      "pages": 46,
+      "project_ref": "39f1de39-ab48-da80-6795-5e207fe22f46",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f1de39-ab48-da80-6795-5e207fe22f46"
+    },
+    {
+      "project_name": "O132 - Oil & Water Supplies Ltd",
+      "bank_name": "HSBC",
+      "pages": 13,
+      "project_ref": "39f20c1c-671e-a73a-0206-9195629f56fb",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f20c1c-671e-a73a-0206-9195629f56fb"
+    },
+    {
+      "project_name": "GREENSTAR SOLUTIONS LIMITED",
+      "bank_name": "wise",
+      "pages": 17,
+      "project_ref": "39f467a7-75aa-0d8b-1e2e-1f2dfb151510",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f467a7-75aa-0d8b-1e2e-1f2dfb151510"
+    },
+    {
+      "project_name": "Private Luxury OU - Estonia",
+      "bank_name": "Nat West",
+      "pages": 5,
+      "project_ref": "39f76b2f-189b-1f3f-7e92-da565698fe2d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f76b2f-189b-1f3f-7e92-da565698fe2d"
+    },
+    {
+      "project_name": "Shergil Corporation",
+      "bank_name": "Citizens Bank",
+      "pages": 24,
+      "project_ref": "39f78703-6d28-ca25-f763-615f48614ac2",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f78703-6d28-ca25-f763-615f48614ac2"
+    },
+    {
+      "project_name": "Pauper Prince Renovations Inc",
+      "bank_name": "Other",
+      "pages": 5,
+      "project_ref": "39f79fd8-c950-b537-5ed9-67c76461e434",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f79fd8-c950-b537-5ed9-67c76461e434"
+    },
+    {
+      "project_name": "23 TELECOM LTD",
+      "bank_name": "Other",
+      "pages": 3,
+      "project_ref": "39f8e89c-5fe9-c465-f1eb-e86d9ee7d9e2",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f8e89c-5fe9-c465-f1eb-e86d9ee7d9e2"
+    },
+    {
+      "project_name": "B51 Robert Bennett",
+      "bank_name": "Permanent TSB",
+      "pages": 17,
+      "project_ref": "39f8fe54-f1ea-f1bd-235b-e09425ef1f18",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f8fe54-f1ea-f1bd-235b-e09425ef1f18"
+    },
+    {
+      "project_name": "Afrosia",
+      "bank_name": "Barclay,Barclays",
+      "pages": 34,
+      "project_ref": "39f99411-39c8-e0e9-ae2c-389c3c1f691d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f99411-39c8-e0e9-ae2c-389c3c1f691d"
+    },
+    {
+      "project_name": "Autumn Skies Trading 697 CC",
+      "bank_name": "Standard Bank",
+      "pages": 25,
+      "project_ref": "39fae163-5732-6c0d-7394-80040dd87f3a",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39fae163-5732-6c0d-7394-80040dd87f3a"
+    },
+    {
+      "project_name": "Pat Wilson ( W111)",
+      "bank_name": "Permanent TSB",
+      "pages": 11,
+      "project_ref": "39fc1fa6-a013-806a-f03d-d420c76ebd04",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39fc1fa6-a013-806a-f03d-d420c76ebd04"
+    },
+    {
+      "project_name": "M Davis Construction Services Ltd",
+      "bank_name": "Nat West",
+      "pages": 3,
+      "project_ref": "39fd2cdc-8e2a-53c9-ba0a-518a82f2a242",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39fd2cdc-8e2a-53c9-ba0a-518a82f2a242"
+    },
+    {
+      "project_name": "David Delaney",
+      "bank_name": "AIB",
+      "pages": 4,
+      "project_ref": "39fd7388-4840-cdf0-6f15-5527eaa48192",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39fd7388-4840-cdf0-6f15-5527eaa48192"
+    },
+    {
+      "project_name": "Pettifer rental partnership",
+      "bank_name": "Barclay",
+      "pages": 4,
+      "project_ref": "39fee19a-caa6-13c5-1fcc-cbb4ed76396f",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39fee19a-caa6-13c5-1fcc-cbb4ed76396f"
+    },
+    {
+      "project_name": "Hemel Hicks",
+      "bank_name": "HSBC",
+      "pages": 13,
+      "project_ref": "39fefb40-7907-82f2-d01b-34e42e06f9bb",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39fefb40-7907-82f2-d01b-34e42e06f9bb"
+    },
+    {
+      "project_name": "Stuart Coughlan",
+      "bank_name": "NA,OTHER,Permanent TSB,ptsb,TSB",
+      "pages": 80,
+      "project_ref": "39ffddb8-cb78-f5eb-52d6-8ad0aad3e042",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39ffddb8-cb78-f5eb-52d6-8ad0aad3e042"
+    },
+    {
+      "project_name": "A J Joinery",
+      "bank_name": "Wise Business",
+      "pages": 10,
+      "project_ref": "3a00fe06-6c2a-f0fb-e05f-2e399fd4b262",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a00fe06-6c2a-f0fb-e05f-2e399fd4b262"
+    },
+    {
+      "project_name": "Bank Statements ALL",
+      "bank_name": "Santander,SantanderBank",
+      "pages": 22,
+      "project_ref": "3a018063-31b1-8296-8e48-b878ba3b4357",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a018063-31b1-8296-8e48-b878ba3b4357"
+    },
+    {
+      "project_name": "Keywest Music Limited",
+      "bank_name": "Revolut Business",
+      "pages": 10,
+      "project_ref": "3a0183b6-711b-8bfd-8ef2-59e5e0032624",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0183b6-711b-8bfd-8ef2-59e5e0032624"
+    },
+    {
+      "project_name": "Robson Granite Worksurfaces Limited",
+      "bank_name": "Virgin Money",
+      "pages": 6,
+      "project_ref": "3a0276d8-2763-3e38-d082-fcd13f7888c6",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0276d8-2763-3e38-d082-fcd13f7888c6"
+    },
+    {
+      "project_name": "Imperium Syndicate Ltd",
+      "bank_name": "NA,Weatherbys Private Bank",
+      "pages": 24,
+      "project_ref": "3a02e2dd-5831-c326-13a3-176061540559",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a02e2dd-5831-c326-13a3-176061540559"
+    },
+    {
+      "project_name": "CL001 Clifton Property Services Ltd",
+      "bank_name": "Metro Bank",
+      "pages": 6,
+      "project_ref": "3a040ce3-b2fe-cb8b-b714-e5280e3e57cf",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a040ce3-b2fe-cb8b-b714-e5280e3e57cf"
+    },
+    {
+      "project_name": "MERT INVESTMENT",
+      "bank_name": "Capital One",
+      "pages": 8,
+      "project_ref": "3a044ae0-b4d5-1234-c2c6-9a0149ce42c0",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a044ae0-b4d5-1234-c2c6-9a0149ce42c0"
+    },
+    {
+      "project_name": "Dowdall Contracts",
+      "bank_name": "Wise Business",
+      "pages": 13,
+      "project_ref": "3a050e58-7172-1c2b-9dae-8472abfd36da",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a050e58-7172-1c2b-9dae-8472abfd36da"
+    },
+    {
+      "project_name": "FAST TRAK LIMITED",
+      "bank_name": "HSBC",
+      "pages": 9,
+      "project_ref": "3a0570cd-09e0-17fc-9128-ba636fec9a26",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0570cd-09e0-17fc-9128-ba636fec9a26"
+    },
+    {
+      "project_name": "Rosy Jeffery Ltd",
+      "bank_name": "Nat West",
+      "pages": 1,
+      "project_ref": "3a057b2f-beb6-f440-c85c-d2ab929da287",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a057b2f-beb6-f440-c85c-d2ab929da287"
+    },
+    {
+      "project_name": "Hudson Hope Tempo",
+      "bank_name": "Amex",
+      "pages": 7,
+      "project_ref": "3a062638-3cfc-9610-05db-2dbc672868b5",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a062638-3cfc-9610-05db-2dbc672868b5"
+    },
+    {
+      "project_name": "10-06-22 to 02-09-22",
+      "bank_name": "Capital ONTAP",
+      "pages": 1,
+      "project_ref": "3a06482a-c630-66d5-564d-9403bb642f55",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a06482a-c630-66d5-564d-9403bb642f55"
+    },
+    {
+      "project_name": "1598714 AB Ltd RL & Hvac",
+      "bank_name": "Royal Bank Of Canada",
+      "pages": 59,
+      "project_ref": "3a066893-49a3-4f39-897c-c4ef9d4626d6",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a066893-49a3-4f39-897c-c4ef9d4626d6"
+    },
+    {
+      "project_name": "2914 Malcolm Kennedy",
+      "bank_name": "AIB",
+      "pages": 15,
+      "project_ref": "3a0677bb-f3bd-5f30-47cc-0f04c7d86ee9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0677bb-f3bd-5f30-47cc-0f04c7d86ee9"
+    },
+    {
+      "project_name": "The Theo Jackson Jeppe Trust",
+      "bank_name": "Standard Bank",
+      "pages": 4,
+      "project_ref": "3a0763c7-26ef-1a21-3900-27dabb32e0f6",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0763c7-26ef-1a21-3900-27dabb32e0f6"
+    },
+    {
+      "project_name": "Avanti Language School",
+      "bank_name": "AIB",
+      "pages": 62,
+      "project_ref": "3a0804db-9f06-4ea0-9ab2-0bcfe954f6f4",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0804db-9f06-4ea0-9ab2-0bcfe954f6f4"
+    },
+    {
+      "project_name": "Patrick McKernan",
+      "bank_name": "Danske",
+      "pages": 28,
+      "project_ref": "3a09b8e0-98cf-15eb-9a21-60fbccbe3c7a",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a09b8e0-98cf-15eb-9a21-60fbccbe3c7a"
+    },
+    {
+      "project_name": "RAW ENERGY SDN BHD",
+      "bank_name": "STANDARD CHARTERED",
+      "pages": 8,
+      "project_ref": "3a0a396f-c5e8-231c-aba6-fcf663ce13d6",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0a396f-c5e8-231c-aba6-fcf663ce13d6"
+    },
+    {
+      "project_name": "SANA FORTIS ANIMAL FEED NS SDN BHD",
+      "bank_name": "Other",
+      "pages": 1,
+      "project_ref": "3a0ace5e-dfdc-dfe1-70eb-1ef2181f5d9f",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0ace5e-dfdc-dfe1-70eb-1ef2181f5d9f"
+    },
+    {
+      "project_name": "CL4U",
+      "bank_name": "Barclay",
+      "pages": 4,
+      "project_ref": "3a0b0bde-c9d0-608c-77fe-f03cac87e53e",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0b0bde-c9d0-608c-77fe-f03cac87e53e"
+    },
+    {
+      "project_name": "Ja_gs87",
+      "bank_name": "Bank Of Ireland,BarclayPLC",
+      "pages": 5,
+      "project_ref": "3a0bec3f-3c8a-ccdb-b084-48e01fcbd992",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0bec3f-3c8a-ccdb-b084-48e01fcbd992"
+    },
+    {
+      "project_name": "Guy & Sue Buckley",
+      "bank_name": "TSB",
+      "pages": 13,
+      "project_ref": "3a0c6171-01d1-071a-584e-08ea025bd189",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0c6171-01d1-071a-584e-08ea025bd189"
+    },
+    {
+      "project_name": "Creideamh Ltd",
+      "bank_name": "AmericanExpress",
+      "pages": 7,
+      "project_ref": "3a0d9afe-7798-3e05-a0c6-37f37bdca714",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0d9afe-7798-3e05-a0c6-37f37bdca714"
+    },
+    {
+      "project_name": "B Hands Logistics",
+      "bank_name": "Virgin Money",
+      "pages": 4,
+      "project_ref": "3a0db999-af5d-3bf5-d186-a318346b4e89",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0db999-af5d-3bf5-d186-a318346b4e89"
+    },
+    {
+      "project_name": "Shell Miramichi",
+      "bank_name": "Beaubear",
+      "pages": 13,
+      "project_ref": "3a0e6fbe-5835-c8b3-efbf-d1b3ab8c816f",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0e6fbe-5835-c8b3-efbf-d1b3ab8c816f"
+    },
+    {
+      "project_name": "Hosenbocus & Co CPA",
+      "bank_name": "Scotia Bank",
+      "pages": 8,
+      "project_ref": "3a0ec253-1959-dcfd-da7d-52198b8440f8",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0ec253-1959-dcfd-da7d-52198b8440f8"
+    },
+    {
+      "project_name": "Barriere Esso",
+      "bank_name": "Other select",
+      "pages": 4,
+      "project_ref": "3a0f0027-c4e9-b5eb-a17d-9a58fc97c832",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0f0027-c4e9-b5eb-a17d-9a58fc97c832"
+    },
+    {
+      "project_name": "Bailey Properties Management Ltd",
+      "bank_name": "N/A",
+      "pages": 3,
+      "project_ref": "3a0f23d9-d984-64c5-78d7-b92503350099",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0f23d9-d984-64c5-78d7-b92503350099"
+    },
+    {
+      "project_name": "GE Groundworks",
+      "bank_name": "Capital ONTAP",
+      "pages": 8,
+      "project_ref": "3a0f47d7-e370-147e-75e9-82dd1f8ca1f3",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0f47d7-e370-147e-75e9-82dd1f8ca1f3"
+    },
+    {
+      "project_name": "Interpritalia Language Services Ltd",
+      "bank_name": "Starling Bank",
+      "pages": 1,
+      "project_ref": "3a0fb6d5-3b0d-d693-3b3c-e78db9f65f2a",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0fb6d5-3b0d-d693-3b3c-e78db9f65f2a"
+    },
+    {
+      "project_name": "Eclah",
+      "bank_name": "Standard Bank",
+      "pages": 6,
+      "project_ref": "3a108f59-b4f9-f76a-08c8-e18bb23b534a",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a108f59-b4f9-f76a-08c8-e18bb23b534a"
+    },
+    {
+      "project_name": "countryside skills",
+      "bank_name": "HSBC",
+      "pages": 5,
+      "project_ref": "3a112677-920e-f68a-8070-f8b14284d3fc",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a112677-920e-f68a-8070-f8b14284d3fc"
+    },
+    {
+      "project_name": "Rai and Shergill Inc.",
+      "bank_name": "Citizens Bank",
+      "pages": 22,
+      "project_ref": "3a116b62-870f-12bb-a2f9-60564e009c2d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a116b62-870f-12bb-a2f9-60564e009c2d"
+    },
+    {
+      "project_name": "DEFAULT - HELEN'S ROOM",
+      "bank_name": "zempler bank",
+      "pages": 5,
+      "project_ref": "3a119804-3f2b-4344-1bca-1552fe165934",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a119804-3f2b-4344-1bca-1552fe165934"
+    },
+    {
+      "project_name": "BEARA CONSULTING LIMITED",
+      "bank_name": "Cater Allen",
+      "pages": 10,
+      "project_ref": "3a12a909-4887-0d79-1ddf-93c82b91dfa8",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a12a909-4887-0d79-1ddf-93c82b91dfa8"
+    },
+    {
+      "project_name": "M0634 - Jonathan Mylchreest",
+      "bank_name": "Nat West",
+      "pages": 47,
+      "project_ref": "3a12d08e-a41f-2a34-85c4-b32c5b535b08",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a12d08e-a41f-2a34-85c4-b32c5b535b08"
+    },
+    {
+      "project_name": "LMKCA",
+      "bank_name": "Other select",
+      "pages": 3,
+      "project_ref": "3a12dd33-7ce4-0897-df88-3cb78570bd4b",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a12dd33-7ce4-0897-df88-3cb78570bd4b"
+    },
+    {
+      "project_name": "John Keane Heating and Plumbing Ltd",
+      "bank_name": "Permanent TSB",
+      "pages": 1,
+      "project_ref": "3a12ffe6-752f-6bd8-0b1b-7085c4b141b9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a12ffe6-752f-6bd8-0b1b-7085c4b141b9"
+    },
+    {
+      "project_name": "Kaslo Husky",
+      "bank_name": "ANZ,HSBC",
+      "pages": 16,
+      "project_ref": "3a1301f3-22f8-3a40-9c36-dbb241dd0dec",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1301f3-22f8-3a40-9c36-dbb241dd0dec"
+    },
+    {
+      "project_name": "Nathan Pugh",
+      "bank_name": "Starling Bank",
+      "pages": 24,
+      "project_ref": "3a137168-8e94-51c1-d10f-ec6311fe297c",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a137168-8e94-51c1-d10f-ec6311fe297c"
+    },
+    {
+      "project_name": "WI-HUD0046 - Mr D Hudson",
+      "bank_name": "Barclays",
+      "pages": 12,
+      "project_ref": "3a13801c-007c-d6fa-ab45-7fc11a751904",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a13801c-007c-d6fa-ab45-7fc11a751904"
+    },
+    {
+      "project_name": "K Menyah",
+      "bank_name": "Barclay",
+      "pages": 3,
+      "project_ref": "3a138a12-e46f-455a-eb08-dc55471f293b",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a138a12-e46f-455a-eb08-dc55471f293b"
+    },
+    {
+      "project_name": "Bailey Properties",
+      "bank_name": "Other",
+      "pages": 1,
+      "project_ref": "3a13cd79-87ac-df84-fa76-f87afac779b4",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a13cd79-87ac-df84-fa76-f87afac779b4"
+    },
+    {
+      "project_name": "Berchem Limited",
+      "bank_name": "Nat West",
+      "pages": 5,
+      "project_ref": "3a13ce33-213e-1e97-26a4-97744f5544aa",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a13ce33-213e-1e97-26a4-97744f5544aa"
+    },
+    {
+      "project_name": "Bank Statement Conversion",
+      "bank_name": "Anna",
+      "pages": 2,
+      "project_ref": "3a13ebc0-cc10-e87e-5a68-6882fc80215c",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a13ebc0-cc10-e87e-5a68-6882fc80215c"
+    },
+    {
+      "project_name": "Clarke Property",
+      "bank_name": "Tide bank",
+      "pages": 28,
+      "project_ref": "3a14d4a6-ee68-bc54-8a24-a886329102c9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a14d4a6-ee68-bc54-8a24-a886329102c9"
+    },
+    {
+      "project_name": "Elton Properties",
+      "bank_name": "Lloyds TSB",
+      "pages": 2,
+      "project_ref": "3a14eea6-a99c-ef81-9842-2fbf3dc65546",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a14eea6-a99c-ef81-9842-2fbf3dc65546"
+    },
+    {
+      "project_name": "Gary Lee Curran Construction Ltd",
+      "bank_name": "Metro Bank",
+      "pages": 121,
+      "project_ref": "3a151c7a-c79a-4b64-797f-ec05b4ad0e78",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a151c7a-c79a-4b64-797f-ec05b4ad0e78"
+    },
+    {
+      "project_name": "E_T14 Coast Caravans Ltd",
+      "bank_name": "HSBC",
+      "pages": 6,
+      "project_ref": "3a153646-f937-a7c4-14d9-40c8c3eaecc9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a153646-f937-a7c4-14d9-40c8c3eaecc9"
+    },
+    {
+      "project_name": "Earths Innovations",
+      "bank_name": "CAPITEC",
+      "pages": 5,
+      "project_ref": "3a15dea6-9333-3b3e-c660-8f9370e03ef9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a15dea6-9333-3b3e-c660-8f9370e03ef9"
+    },
+    {
+      "project_name": "HAAL MEDIA LIMITED-2024-11-18 02-51-22",
+      "bank_name": "HSBC",
+      "pages": 11,
+      "project_ref": "3a1651ee-97c2-5859-ec27-807da6a0246c",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1651ee-97c2-5859-ec27-807da6a0246c"
+    },
+    {
+      "project_name": "Imata",
+      "bank_name": "Capitec",
+      "pages": 8,
+      "project_ref": "3a16cc81-2d3e-631f-9e1b-d82e3e2726c8",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a16cc81-2d3e-631f-9e1b-d82e3e2726c8"
+    },
+    {
+      "project_name": "Nexivect (Pty) Ltd",
+      "bank_name": "First National Bank",
+      "pages": 3,
+      "project_ref": "3a16ec7c-f0c0-bf3e-9416-ec750e659eaf",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a16ec7c-f0c0-bf3e-9416-ec750e659eaf"
+    },
+    {
+      "project_name": "Tinlinetradingltd",
+      "bank_name": "Permanent TSB",
+      "pages": 8,
+      "project_ref": "3a17f385-731e-052b-4a14-881ce9e78424",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a17f385-731e-052b-4a14-881ce9e78424"
+    },
+    {
+      "project_name": "M&T x9097",
+      "bank_name": "MT",
+      "pages": 3,
+      "project_ref": "3a1811df-b2ec-1591-0e44-9605974dfee7",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1811df-b2ec-1591-0e44-9605974dfee7"
+    },
+    {
+      "project_name": "Alex Robson Heating and Gas Ltd",
+      "bank_name": "Amex",
+      "pages": 6,
+      "project_ref": "3a19035b-4e86-945c-41e4-328df0ade754",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a19035b-4e86-945c-41e4-328df0ade754"
+    },
+    {
+      "project_name": "J Bradley & Son",
+      "bank_name": "Bank Of Ireland",
+      "pages": 4,
+      "project_ref": "3a190d55-1a5a-6154-bc32-b89758655787",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a190d55-1a5a-6154-bc32-b89758655787"
+    },
+    {
+      "project_name": "Sunglow Aesthetics Limited",
+      "bank_name": "Bank Of Ireland",
+      "pages": 21,
+      "project_ref": "3a192c3f-3f82-8176-fec8-e625fc36d057",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a192c3f-3f82-8176-fec8-e625fc36d057"
+    },
+    {
+      "project_name": "Natalma Bloodstock Limited",
+      "bank_name": "ANZ",
+      "pages": 3,
+      "project_ref": "3a193640-d408-5db8-68d4-5219f54f28be",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a193640-d408-5db8-68d4-5219f54f28be"
+    },
+    {
+      "project_name": "BM Trading Trust",
+      "bank_name": "First National Bank",
+      "pages": 9,
+      "project_ref": "3a19cbf7-921b-3b14-e4dd-9273710d88f9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a19cbf7-921b-3b14-e4dd-9273710d88f9"
+    },
+    {
+      "project_name": "Apex Newcastle Loft Conversions",
+      "bank_name": "HSBC",
+      "pages": 21,
+      "project_ref": "3a19db93-853b-cc4e-8734-1d0fdddca93d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a19db93-853b-cc4e-8734-1d0fdddca93d"
+    },
+    {
+      "project_name": "David Mark Jacobs",
+      "bank_name": "Barclay",
+      "pages": 21,
+      "project_ref": "3a1a005d-6926-4f57-8079-4594243a2469",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1a005d-6926-4f57-8079-4594243a2469"
+    },
+    {
+      "project_name": "Ashray Holdings Limited",
+      "bank_name": "Revolut",
+      "pages": 2,
+      "project_ref": "3a1a334f-9d99-ef9a-76d1-872a4e681109",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1a334f-9d99-ef9a-76d1-872a4e681109"
+    },
+    {
+      "project_name": "Brew Rentals Ltd",
+      "bank_name": "Lloyds TSB",
+      "pages": 15,
+      "project_ref": "3a1a947f-5bef-99c1-fc43-956c858b5cc9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1a947f-5bef-99c1-fc43-956c858b5cc9"
+    },
+    {
+      "project_name": "Applewood Ltd",
+      "bank_name": "AIB",
+      "pages": 1,
+      "project_ref": "3a1a9607-b2c6-3b04-7f7e-a0e2e27873a4",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1a9607-b2c6-3b04-7f7e-a0e2e27873a4"
+    },
+    {
+      "project_name": "Hayes, Tracy MPC",
+      "bank_name": "OTHER,Royal Bank Of Canada",
+      "pages": 12,
+      "project_ref": "3a1ad2c5-eb3a-3246-3abc-57c8e7bd7478",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1ad2c5-eb3a-3246-3abc-57c8e7bd7478"
+    },
+    {
+      "project_name": "RBL CC 0044 - FYE 1 July 2025 to 30 June 2026",
+      "bank_name": "REPUBLIC BANK LIMITITED",
+      "pages": 1,
+      "project_ref": "3a1b8c68-ce02-c0f3-6d16-258bce8235ee",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1b8c68-ce02-c0f3-6d16-258bce8235ee"
+    },
+    {
+      "project_name": "Contagion Investments Limited",
+      "bank_name": "bil",
+      "pages": 28,
+      "project_ref": "3a1bab72-43a3-5193-11df-a8a974f7a754",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1bab72-43a3-5193-11df-a8a974f7a754"
+    },
+    {
+      "project_name": "Unburdened",
+      "bank_name": "Bank Of Scotland",
+      "pages": 4,
+      "project_ref": "3a1bab77-6352-5bbf-3a54-75d1d1567ab0",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1bab77-6352-5bbf-3a54-75d1d1567ab0"
+    },
+    {
+      "project_name": "Rizzoli Denture",
+      "bank_name": "Alliance And Leicester,Amex",
+      "pages": 10,
+      "project_ref": "3a1bb20d-0161-556a-f608-000916ff5868",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1bb20d-0161-556a-f608-000916ff5868"
+    },
+    {
+      "project_name": "ZCR001 - Zerosa Resource",
+      "bank_name": "Barclay",
+      "pages": 9,
+      "project_ref": "3a1bd853-fa4c-17ba-14a5-7198601e0c88",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1bd853-fa4c-17ba-14a5-7198601e0c88"
+    },
+    {
+      "project_name": "Elecforce",
+      "bank_name": "Nat West",
+      "pages": 40,
+      "project_ref": "3a1c2129-8ed4-73cc-ee13-67d91f7ef936",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1c2129-8ed4-73cc-ee13-67d91f7ef936"
+    },
+    {
+      "project_name": "Interior Transformers Limited",
+      "bank_name": "AmericanExpress",
+      "pages": 6,
+      "project_ref": "3a1c2ded-efed-5745-2492-a95af15113eb",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1c2ded-efed-5745-2492-a95af15113eb"
+    },
+    {
+      "project_name": "Munroe K Limited",
+      "bank_name": "Hoarse Bank",
+      "pages": 2,
+      "project_ref": "3a1c5f0e-613d-4a93-5fd2-979e83ba0efa",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1c5f0e-613d-4a93-5fd2-979e83ba0efa"
+    },
+    {
+      "project_name": "W J Phillips & Son (Lloyd Phillips)",
+      "bank_name": "HSBC",
+      "pages": 4,
+      "project_ref": "3a1c5f1c-f6f2-35c9-6a62-6d11164bce5d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1c5f1c-f6f2-35c9-6a62-6d11164bce5d"
+    },
+    {
+      "project_name": "BOWL AND SPOON",
+      "bank_name": "OTHER",
+      "pages": 19,
+      "project_ref": "3a1cf7c4-ca8a-023e-b7c1-c6da2c8952a7",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1cf7c4-ca8a-023e-b7c1-c6da2c8952a7"
+    },
+    {
+      "project_name": "PS Swart",
+      "bank_name": "Standard Bank",
+      "pages": 50,
+      "project_ref": "3a1d7f6b-a2d9-d441-27aa-264c74939c40",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1d7f6b-a2d9-d441-27aa-264c74939c40"
+    },
+    {
+      "project_name": "02448-Lerner, Chelsey & Mitch",
+      "bank_name": "Bank Of America",
+      "pages": 56,
+      "project_ref": "3a1dba84-3949-f575-c9ee-8ae136f3f69b",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1dba84-3949-f575-c9ee-8ae136f3f69b"
+    },
+    {
+      "project_name": "Road Ready Automotive Ltd",
+      "bank_name": "Lloyds TSB",
+      "pages": 57,
+      "project_ref": "3a1e5df7-8eb0-a998-522d-4adc50979ef9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1e5df7-8eb0-a998-522d-4adc50979ef9"
+    },
+    {
+      "project_name": "Advanced Ventilations Systems Ltd",
+      "bank_name": "Nat West",
+      "pages": 1,
+      "project_ref": "3a1ed7aa-8ff4-7b42-b1ff-9128c2dd28b2",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1ed7aa-8ff4-7b42-b1ff-9128c2dd28b2"
+    },
+    {
+      "project_name": "Holmes family farms",
+      "bank_name": "Standard Bank of South Africa",
+      "pages": 1,
+      "project_ref": "3a1f2faa-e359-4cb0-fb1e-ebbfb9812267",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1f2faa-e359-4cb0-fb1e-ebbfb9812267"
+    },
+    {
+      "project_name": "RBL TTD 2026",
+      "bank_name": "Lloyds TSB",
+      "pages": 8,
+      "project_ref": "3a1f547f-42f7-a761-f017-4acb2bc77b01",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1f547f-42f7-a761-f017-4acb2bc77b01"
+    },
+    {
+      "project_name": "AUDIOVISUEL ASSISTANCE & SERVICE",
+      "bank_name": "OTEHR",
+      "pages": 8,
+      "project_ref": "3a1f6962-5df8-4b2b-8a5c-003bae6fc1e8",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1f6962-5df8-4b2b-8a5c-003bae6fc1e8"
+    },
+    {
+      "project_name": "Expo Ltd/LLP/Port/PS",
+      "bank_name": "Barclay",
+      "pages": 4,
+      "project_ref": "3a1f7d5e-5c0b-ad74-ef85-7224015f7cd4",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1f7d5e-5c0b-ad74-ef85-7224015f7cd4"
+    },
+    {
+      "project_name": "Gobystone Corporation",
+      "bank_name": "Scotia Bank",
+      "pages": 10,
+      "project_ref": "3a1f7f79-fa90-f28b-4a89-d12be9a5aef2",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1f7f79-fa90-f28b-4a89-d12be9a5aef2"
+    },
+    {
+      "project_name": "Pinnacle Lifts Limited",
+      "bank_name": "Standard Bank",
+      "pages": 10,
+      "project_ref": "3a1fcf81-786b-f0e1-009f-786799199381",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1fcf81-786b-f0e1-009f-786799199381"
+    },
+    {
+      "project_name": "NOGENT SANTE",
+      "bank_name": "Abbey Santander,OTHER",
+      "pages": 148,
+      "project_ref": "3a1fe472-e1c2-342a-b9ad-b0432e1cd4ef",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1fe472-e1c2-342a-b9ad-b0432e1cd4ef"
+    },
+    {
+      "project_name": "Let it Rain YE 31/03/2026",
+      "bank_name": "Bank Of Cyprus,Bank Of Ireland",
+      "pages": 35,
+      "project_ref": "3a20bc42-4df3-885b-d923-34e6756c4bb2",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a20bc42-4df3-885b-d923-34e6756c4bb2"
+    },
+    {
+      "project_name": "2026 Accounts",
+      "bank_name": "HSBC",
+      "pages": 4,
+      "project_ref": "3a20e15c-42e4-2591-ef6c-5747a18f991e",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a20e15c-42e4-2591-ef6c-5747a18f991e"
+    },
+    {
+      "project_name": "Moses Maren Mission Technical High Sch",
+      "bank_name": "Standard Bank",
+      "pages": 49,
+      "project_ref": "3a210c04-6ae0-e210-3022-1169b2598d8b",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a210c04-6ae0-e210-3022-1169b2598d8b"
+    },
+    {
+      "project_name": "Snag Pro ltd",
+      "bank_name": "OTHER",
+      "pages": 4,
+      "project_ref": "3a2128d6-a351-0fa6-d3bf-3f6e70c3c843",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a2128d6-a351-0fa6-d3bf-3f6e70c3c843"
+    },
+    {
+      "project_name": "ABI Resources",
+      "bank_name": "other",
+      "pages": 4,
+      "project_ref": "3a2151bf-b799-de31-064f-3042a1f9c201",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a2151bf-b799-de31-064f-3042a1f9c201"
+    },
+    {
+      "project_name": "ALPHA DANE LIMITED",
+      "bank_name": "HSBC",
+      "pages": 32,
+      "project_ref": "3a2156b2-9b4a-1613-977a-5a1b39283c0d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a2156b2-9b4a-1613-977a-5a1b39283c0d"
+    },
+    {
+      "project_name": "Aidan Connaughton",
+      "bank_name": "CIS ELECTRICAL LTD",
+      "pages": 25,
+      "project_ref": "3a21581d-49e1-31df-3f9b-5a114b689941",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21581d-49e1-31df-3f9b-5a114b689941"
+    },
+    {
+      "project_name": "MANTA REA AQUATICS LIMITED",
+      "bank_name": "Revolut",
+      "pages": 327,
+      "project_ref": "3a2180ac-34e0-764c-8e30-9fb4cf3a169a",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a2180ac-34e0-764c-8e30-9fb4cf3a169a"
+    },
+    {
+      "project_name": "Eternal Glory Church",
+      "bank_name": "First National Bank,First Trust",
+      "pages": 57,
+      "project_ref": "3a2187eb-7399-53e3-418e-f1c7a13363c1",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a2187eb-7399-53e3-418e-f1c7a13363c1"
+    },
+    {
+      "project_name": "Principles Of Digital Studios",
+      "bank_name": "Tide bank",
+      "pages": 1,
+      "project_ref": "3a21a463-2f37-653d-ca99-e542d578dd4d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a463-2f37-653d-ca99-e542d578dd4d"
+    },
+    {
+      "project_name": "HSBC 06.05.25 TO 02.05.26",
+      "bank_name": "HSBC",
+      "pages": 34,
+      "project_ref": "3a21a5a4-a827-c7b3-93e6-f70226c42f60",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a5a4-a827-c7b3-93e6-f70226c42f60"
+    },
+    {
+      "project_name": "La Rocca May 2026",
+      "bank_name": "HSBC",
+      "pages": 3,
+      "project_ref": "3a21a79d-b8ba-9036-f1bb-0abcd065371d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a79d-b8ba-9036-f1bb-0abcd065371d"
+    },
+    {
+      "project_name": "HA Design May 2026",
+      "bank_name": "CommerceBank",
+      "pages": 6,
+      "project_ref": "3a21a7b2-032a-f69a-19c7-40f26d71f611",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a7b2-032a-f69a-19c7-40f26d71f611"
+    },
+    {
+      "project_name": "Chenoweth",
+      "bank_name": "Territorial Savings Bank",
+      "pages": 15,
+      "project_ref": "3a21a7c1-20ca-7865-f708-926acbaf5048",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a7c1-20ca-7865-f708-926acbaf5048"
+    },
+    {
+      "project_name": "YEAR 2020",
+      "bank_name": "Standard Bank",
+      "pages": 108,
+      "project_ref": "3a21a877-88f0-4e72-f245-9d4519c97506",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a877-88f0-4e72-f245-9d4519c97506"
+    },
+    {
+      "project_name": "REGIONAL BARGAINING COUNCIL",
+      "bank_name": "First National Bank",
+      "pages": 3,
+      "project_ref": "3a21a8cc-0a2f-1ce9-8c3d-ae7a7d8cc537",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a8cc-0a2f-1ce9-8c3d-ae7a7d8cc537"
+    },
+    {
+      "project_name": "RATTLE & DRUM MUSIC LTD",
+      "bank_name": "Tide bank",
+      "pages": 19,
+      "project_ref": "3a21a8e2-b3bb-711b-30bf-f92fb0ea1d1a",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a8e2-b3bb-711b-30bf-f92fb0ea1d1a"
+    },
+    {
+      "project_name": "Waychan Laundromat",
+      "bank_name": "Standard Bank",
+      "pages": 2,
+      "project_ref": "3a21a8f2-7a6f-7de0-d933-7b9a0263543e",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a8f2-7a6f-7de0-d933-7b9a0263543e"
+    },
+    {
+      "project_name": "Zella Social LTD",
+      "bank_name": "Virgin Money",
+      "pages": 2,
+      "project_ref": "3a21a8f5-68f5-08b0-2b4d-fe2b74243a3e",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a8f5-68f5-08b0-2b4d-fe2b74243a3e"
+    },
+    {
+      "project_name": "Ormskirk Market Ltd",
+      "bank_name": "Revolut Business",
+      "pages": 477,
+      "project_ref": "3a21a8fb-3626-09d4-7458-6f90e7cbb5f2",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a8fb-3626-09d4-7458-6f90e7cbb5f2"
+    },
+    {
+      "project_name": "Kaleido Research Ltd",
+      "bank_name": "OTHER",
+      "pages": 42,
+      "project_ref": "3a21a902-e37e-d055-e19d-996e044f8fa4",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a902-e37e-d055-e19d-996e044f8fa4"
+    },
+    {
+      "project_name": "OS018C - RVKCHAHAL LTD",
+      "bank_name": "Monzo Bank",
+      "pages": 25,
+      "project_ref": "3a21a904-6bf8-da1a-0786-faf3fb470898",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a904-6bf8-da1a-0786-faf3fb470898"
+    },
+    {
+      "project_name": "NOVO Digital Ltd",
+      "bank_name": "Starling Bank",
+      "pages": 98,
+      "project_ref": "3a21a920-2755-ea44-3361-f439fa4d1cce",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a920-2755-ea44-3361-f439fa4d1cce"
+    },
+    {
+      "project_name": "31 March 2026",
+      "bank_name": "HSBC",
+      "pages": 19,
+      "project_ref": "3a21a920-3c57-2ccd-696a-fb4cb06fcb11",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a920-3c57-2ccd-696a-fb4cb06fcb11"
+    },
+    {
+      "project_name": "Seskin Lisdowney GWS",
+      "bank_name": "AIB",
+      "pages": 12,
+      "project_ref": "3a21a938-a53d-1e25-19a5-f3ed43d432ff",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a938-a53d-1e25-19a5-f3ed43d432ff"
+    },
+    {
+      "project_name": "Gowersands Investments Limited_1159811-100",
+      "bank_name": "Standard Bank",
+      "pages": 12,
+      "project_ref": "3a21a93e-9bbb-c7b2-ca7e-7b29a9a67bf7",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a93e-9bbb-c7b2-ca7e-7b29a9a67bf7"
+    },
+    {
+      "project_name": "Revolut Ireland Ltd",
+      "bank_name": "Revolut Business",
+      "pages": 327,
+      "project_ref": "3a21a94c-e247-06a0-b30f-20e96890c8b4",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a94c-e247-06a0-b30f-20e96890c8b4"
+    },
+    {
+      "project_name": "Exstudio Ltd",
+      "bank_name": "Wise Business",
+      "pages": 114,
+      "project_ref": "3a21a96a-dfbf-dd8d-160a-77fb7f102125",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a96a-dfbf-dd8d-160a-77fb7f102125"
+    },
+    {
+      "project_name": "ATB Pipeline Consultancy Limited",
+      "bank_name": "Lloyds TSB",
+      "pages": 3,
+      "project_ref": "3a21a970-5adf-1432-e6a4-f0760ebe18b6",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a970-5adf-1432-e6a4-f0760ebe18b6"
+    },
+    {
+      "project_name": "YEAR 2021",
+      "bank_name": "OTHER",
+      "pages": 51,
+      "project_ref": "3a21a994-d0e9-12a9-6691-bc4e0ddeafb6",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a994-d0e9-12a9-6691-bc4e0ddeafb6"
+    },
+    {
+      "project_name": "Lighten up Wellness Ltd",
+      "bank_name": "AIB",
+      "pages": 20,
+      "project_ref": "3a21a997-5521-64d5-2754-687be3a7b4c7",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a997-5521-64d5-2754-687be3a7b4c7"
+    },
+    {
+      "project_name": "sharjah May 2026.2",
+      "bank_name": "other",
+      "pages": 2,
+      "project_ref": "3a21a99d-56a6-830b-4270-c9920df410e0",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a99d-56a6-830b-4270-c9920df410e0"
+    },
+    {
+      "project_name": "Ms R Vasconcellos",
+      "bank_name": "Revolut Business",
+      "pages": 35,
+      "project_ref": "3a21a9a4-f4a2-f7fb-7de1-ee936e9ff29d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9a4-f4a2-f7fb-7de1-ee936e9ff29d"
+    },
+    {
+      "project_name": "Alluring Media",
+      "bank_name": "other",
+      "pages": 4,
+      "project_ref": "3a21a9ae-dff7-0e76-6411-68597a225259",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9ae-dff7-0e76-6411-68597a225259"
+    },
+    {
+      "project_name": "Fimza Market",
+      "bank_name": "capitec",
+      "pages": 6,
+      "project_ref": "3a21a9cd-8770-df9e-d05d-d17ffce556a4",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9cd-8770-df9e-d05d-d17ffce556a4"
+    },
+    {
+      "project_name": "Netsianda Attorneys",
+      "bank_name": "First National Bank",
+      "pages": 11,
+      "project_ref": "3a21a9d5-fb10-8808-61f0-736222e39eda",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9d5-fb10-8808-61f0-736222e39eda"
+    },
+    {
+      "project_name": "YEAR 2022",
+      "bank_name": "First National Bank",
+      "pages": 18,
+      "project_ref": "3a21a9da-b2e6-2021-ccc7-6a0096c8824d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9da-b2e6-2021-ccc7-6a0096c8824d"
+    },
+    {
+      "project_name": "Light-Tek ltd",
+      "bank_name": "Nat West",
+      "pages": 12,
+      "project_ref": "3a21a9e8-735d-3611-601c-e9de8778985d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9e8-735d-3611-601c-e9de8778985d"
+    },
+    {
+      "project_name": "Bank 2025",
+      "bank_name": "Royal Bank Of Canada",
+      "pages": 42,
+      "project_ref": "3a21a9f3-f620-455e-b90a-7c003b00ad79",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9f3-f620-455e-b90a-7c003b00ad79"
+    },
+    {
+      "project_name": "Catherine Fox",
+      "bank_name": "HSBC",
+      "pages": 9,
+      "project_ref": "3a21a9f6-b048-4eb7-b014-14e84e9b46c9",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9f6-b048-4eb7-b014-14e84e9b46c9"
+    },
+    {
+      "project_name": "7082869 AIB Acc #3089",
+      "bank_name": "AIB",
+      "pages": 10,
+      "project_ref": "3a21a9f9-e9b9-91e9-4881-9a3e5f7ac33d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9f9-e9b9-91e9-4881-9a3e5f7ac33d"
+    },
+    {
+      "project_name": "Tudor Owen",
+      "bank_name": "HSBC",
+      "pages": 23,
+      "project_ref": "3a21a9fc-dd28-58ca-d314-40c633bef74e",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a9fc-dd28-58ca-d314-40c633bef74e"
+    },
+    {
+      "project_name": "4314824 Canada Inc.",
+      "bank_name": "canda",
+      "pages": 5,
+      "project_ref": "3a21aa14-5328-3d37-7e85-7d98d7e0beaf",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa14-5328-3d37-7e85-7d98d7e0beaf"
+    },
+    {
+      "project_name": "DEXTER DAVIES GROUP LTD",
+      "bank_name": "Tide bank",
+      "pages": 58,
+      "project_ref": "3a21aa18-aede-e341-8b9d-da79dd6797b5",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa18-aede-e341-8b9d-da79dd6797b5"
+    },
+    {
+      "project_name": "4172051 Canada Inc.",
+      "bank_name": "f",
+      "pages": 5,
+      "project_ref": "3a21aa19-3bfd-2964-63c5-fad56feeb02f",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa19-3bfd-2964-63c5-fad56feeb02f"
+    },
+    {
+      "project_name": "SUZANNE HEATH 2026",
+      "bank_name": "CoOp,The Cooperative Bank",
+      "pages": 10,
+      "project_ref": "3a21aa22-d660-3014-124d-dddc0f399040",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa22-d660-3014-124d-dddc0f399040"
+    },
+    {
+      "project_name": "Stream Media Group Ltd",
+      "bank_name": "Metro Bank,TD-Bank",
+      "pages": 14,
+      "project_ref": "3a21aa33-436a-87aa-037c-d24616d46b6d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa33-436a-87aa-037c-d24616d46b6d"
+    },
+    {
+      "project_name": "Aardhya Foods Ltd",
+      "bank_name": "Monzo Bank",
+      "pages": 47,
+      "project_ref": "3a21aa35-0232-1227-214f-85c47afad9a5",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa35-0232-1227-214f-85c47afad9a5"
+    },
+    {
+      "project_name": "DJ3981 - Rosetta",
+      "bank_name": "Credit Union,Intelligent Finance,UlsterBank",
+      "pages": 38,
+      "project_ref": "3a21aa3a-132c-4564-2974-6054cb01b125",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa3a-132c-4564-2974-6054cb01b125"
+    },
+    {
+      "project_name": "March - May 26",
+      "bank_name": "COVENTRY,NA",
+      "pages": 4,
+      "project_ref": "3a21aa48-b307-3d90-7dfb-66d2ee38dc65",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa48-b307-3d90-7dfb-66d2ee38dc65"
+    },
+    {
+      "project_name": "=HYPERLINK(\"https://app-web.statementrec.com/app#appuploadfiles/3a21aa4d-ae19-953a-388e-1c80a3f896a2\",\"\")",
+      "bank_name": "TD Canada Trust",
+      "pages": 6,
+      "project_ref": "",
+      "url": ""
+    },
+    {
+      "project_name": "headley meadows",
+      "bank_name": "TideBank",
+      "pages": 1,
+      "project_ref": "3a21aa50-d6ec-95ce-563a-79f81f743d5d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa50-d6ec-95ce-563a-79f81f743d5d"
+    },
+    {
+      "project_name": "L=Kirsten Ruck",
+      "bank_name": "Nat West",
+      "pages": 3,
+      "project_ref": "3a21aa58-498a-19ea-ed50-d3551599f384",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa58-498a-19ea-ed50-d3551599f384"
+    },
+    {
+      "project_name": "GGSD",
+      "bank_name": "Lloyds TSB",
+      "pages": 992,
+      "project_ref": "3a21aa63-ff34-8cfd-dd57-cfd51ee89f66",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa63-ff34-8cfd-dd57-cfd51ee89f66"
+    },
+    {
+      "project_name": "SAM HEMPTON",
+      "bank_name": "Barclays",
+      "pages": 6,
+      "project_ref": "3a21aa66-beba-1a98-50b0-d5dee5f21b94",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa66-beba-1a98-50b0-d5dee5f21b94"
+    },
+    {
+      "project_name": "FOOENGINE LIMITED",
+      "bank_name": "Barclay",
+      "pages": 24,
+      "project_ref": "3a21aa84-be53-75c2-ac7d-66d5a63332fc",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa84-be53-75c2-ac7d-66d5a63332fc"
+    },
+    {
+      "project_name": "Cartagena Enterprises LLC",
+      "bank_name": "nutmeg state",
+      "pages": 6,
+      "project_ref": "3a21aa85-1742-44fb-b2d4-6d1825d5bc01",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa85-1742-44fb-b2d4-6d1825d5bc01"
+    },
+    {
+      "project_name": "2025",
+      "bank_name": "Virgin Money",
+      "pages": 22,
+      "project_ref": "3a21aa8a-6e61-8244-e09b-c2454c7dc0bc",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa8a-6e61-8244-e09b-c2454c7dc0bc"
+    },
+    {
+      "project_name": "1503385 BC Ltd.",
+      "bank_name": "Other",
+      "pages": 7,
+      "project_ref": "3a21aaae-6ab5-90e3-fa63-760484623a70",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aaae-6ab5-90e3-fa63-760484623a70"
+    },
+    {
+      "project_name": "PRUEBA",
+      "bank_name": "Safra National Bank",
+      "pages": 11,
+      "project_ref": "3a21aab6-5c12-d23d-b95b-4674756449b8",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aab6-5c12-d23d-b95b-4674756449b8"
+    },
+    {
+      "project_name": "APRIL 2026",
+      "bank_name": "Barclay",
+      "pages": 4,
+      "project_ref": "3a21aabf-1642-3826-5085-262d8f3106cf",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aabf-1642-3826-5085-262d8f3106cf"
+    },
+    {
+      "project_name": "2511396",
+      "bank_name": "OTHER",
+      "pages": 32,
+      "project_ref": "3a21aacb-e75d-344b-3af7-411c34f6f410",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aacb-e75d-344b-3af7-411c34f6f410"
+    },
+    {
+      "project_name": "Lighthouse Paints",
+      "bank_name": "Alliance And Leicester,Standard Bank",
+      "pages": 31,
+      "project_ref": "3a21aade-a7ff-0d3e-4be9-dd8de3ad6c51",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aade-a7ff-0d3e-4be9-dd8de3ad6c51"
+    },
+    {
+      "project_name": "June 2026",
+      "bank_name": "TD-Bank",
+      "pages": 26,
+      "project_ref": "3a21aaf8-4c1a-8eb0-c6b4-52470f303a2d",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aaf8-4c1a-8eb0-c6b4-52470f303a2d"
+    },
+    {
+      "project_name": "Entrepreneur Mondain Inc.",
+      "bank_name": "First Trust",
+      "pages": 2,
+      "project_ref": "3a21ab45-4903-0111-f1f8-44450cc7df8c",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21ab45-4903-0111-f1f8-44450cc7df8c"
+    },
+    {
+      "project_name": "Pate Lokal Inc.",
+      "bank_name": "AccBank,Alliance And Leicester",
+      "pages": 22,
+      "project_ref": "3a21ab69-d0f9-cc8c-7ce2-530c478f62fb",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21ab69-d0f9-cc8c-7ce2-530c478f62fb"
+    },
+    {
+      "project_name": "2025",
+      "bank_name": "AmericanExpress",
+      "pages": 68,
+      "project_ref": "3a21ab89-1967-7bf9-e4b1-3415fb41e15c",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21ab89-1967-7bf9-e4b1-3415fb41e15c"
+    },
+    {
+      "project_name": "2025-12 (fin d\u00e9cembre)",
+      "bank_name": "Amex",
+      "pages": 8,
+      "project_ref": "3a21ab89-ed2b-168e-939a-e9ac7bf4125f",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21ab89-ed2b-168e-939a-e9ac7bf4125f"
+    },
+    {
+      "project_name": "2025 bank statements",
+      "bank_name": "other",
+      "pages": 24,
+      "project_ref": "3a21abaa-052a-9555-f091-4e91c2bcff17",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21abaa-052a-9555-f091-4e91c2bcff17"
+    },
+    {
+      "project_name": "Mofay LLC",
+      "bank_name": "Citi Gold,Other",
+      "pages": 96,
+      "project_ref": "3a21abad-7e59-3471-ac98-3e168ba558f1",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21abad-7e59-3471-ac98-3e168ba558f1"
+    },
+    {
+      "project_name": "02696-KimEvelyn",
+      "bank_name": "Bank Of America",
+      "pages": 436,
+      "project_ref": "3a21ac4d-bc8f-3a31-f20f-ea7cf68a9c74",
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21ac4d-bc8f-3a31-f20f-ea7cf68a9c74"
+    }
+  ],
+  "unsupported_banks": [
+    {
+      "bank_name": "Permanent TSB",
+      "project_name": "B51 Robert Bennett",
+      "project_ref": "39f8fe54-f1ea-f1bd-235b-e09425ef1f18",
+      "pages": 17,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39f8fe54-f1ea-f1bd-235b-e09425ef1f18"
+    },
+    {
+      "bank_name": "Permanent TSB",
+      "project_name": "Pat Wilson ( W111)",
+      "project_ref": "39fc1fa6-a013-806a-f03d-d420c76ebd04",
+      "pages": 11,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/39fc1fa6-a013-806a-f03d-d420c76ebd04"
+    },
+    {
+      "bank_name": "Beaubear",
+      "project_name": "Shell Miramichi",
+      "project_ref": "3a0e6fbe-5835-c8b3-efbf-d1b3ab8c816f",
+      "pages": 13,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a0e6fbe-5835-c8b3-efbf-d1b3ab8c816f"
+    },
+    {
+      "bank_name": "zempler bank",
+      "project_name": "DEFAULT - HELEN'S ROOM",
+      "project_ref": "3a119804-3f2b-4344-1bca-1552fe165934",
+      "pages": 5,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a119804-3f2b-4344-1bca-1552fe165934"
+    },
+    {
+      "bank_name": "Permanent TSB",
+      "project_name": "John Keane Heating and Plumbing Ltd",
+      "project_ref": "3a12ffe6-752f-6bd8-0b1b-7085c4b141b9",
+      "pages": 1,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a12ffe6-752f-6bd8-0b1b-7085c4b141b9"
+    },
+    {
+      "bank_name": "Permanent TSB",
+      "project_name": "Tinlinetradingltd",
+      "project_ref": "3a17f385-731e-052b-4a14-881ce9e78424",
+      "pages": 8,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a17f385-731e-052b-4a14-881ce9e78424"
+    },
+    {
+      "bank_name": "bil",
+      "project_name": "Contagion Investments Limited",
+      "project_ref": "3a1bab72-43a3-5193-11df-a8a974f7a754",
+      "pages": 28,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1bab72-43a3-5193-11df-a8a974f7a754"
+    },
+    {
+      "bank_name": "Hoarse Bank",
+      "project_name": "Munroe K Limited",
+      "project_ref": "3a1c5f0e-613d-4a93-5fd2-979e83ba0efa",
+      "pages": 2,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a1c5f0e-613d-4a93-5fd2-979e83ba0efa"
+    },
+    {
+      "bank_name": "CommerceBank",
+      "project_name": "HA Design May 2026",
+      "project_ref": "3a21a7b2-032a-f69a-19c7-40f26d71f611",
+      "pages": 6,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a7b2-032a-f69a-19c7-40f26d71f611"
+    },
+    {
+      "bank_name": "Territorial Savings Bank",
+      "project_name": "Chenoweth",
+      "project_ref": "3a21a7c1-20ca-7865-f708-926acbaf5048",
+      "pages": 15,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21a7c1-20ca-7865-f708-926acbaf5048"
+    },
+    {
+      "bank_name": "COVENTRY,NA",
+      "project_name": "March - May 26",
+      "project_ref": "3a21aa48-b307-3d90-7dfb-66d2ee38dc65",
+      "pages": 4,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa48-b307-3d90-7dfb-66d2ee38dc65"
+    },
+    {
+      "bank_name": "nutmeg state",
+      "project_name": "Cartagena Enterprises LLC",
+      "project_ref": "3a21aa85-1742-44fb-b2d4-6d1825d5bc01",
+      "pages": 6,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aa85-1742-44fb-b2d4-6d1825d5bc01"
+    },
+    {
+      "bank_name": "Safra National Bank",
+      "project_name": "PRUEBA",
+      "project_ref": "3a21aab6-5c12-d23d-b95b-4674756449b8",
+      "pages": 11,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21aab6-5c12-d23d-b95b-4674756449b8"
+    },
+    {
+      "bank_name": "AccBank,Alliance And Leicester",
+      "project_name": "Pate Lokal Inc.",
+      "project_ref": "3a21ab69-d0f9-cc8c-7ce2-530c478f62fb",
+      "pages": 22,
+      "pdf_path": null,
+      "url": "https://app-web.statementrec.com/app#appuploadfiles/3a21ab69-d0f9-cc8c-7ce2-530c478f62fb"
+    }
+  ],
+  "supported_banks_found": [
+    "AIB",
+    "ANZ",
+    "ANZ,HSBC",
+    "Abbey Santander,OTHER",
+    "Alliance And Leicester,Amex",
+    "Alliance And Leicester,Standard Bank",
+    "AmericanExpress",
+    "Amex",
+    "Anna",
+    "Bank Of America",
+    "Bank Of Cyprus,Bank Of Ireland",
+    "Bank Of Ireland",
+    "Bank Of Ireland,BarclayPLC",
+    "Bank Of Scotland",
+    "Barclay",
+    "Barclay,Barclays",
+    "Barclays",
+    "CAPITEC",
+    "Capital ONTAP",
+    "Capital One",
+    "Capitec",
+    "Cater Allen",
+    "Citi Gold,Other",
+    "Citizens Bank",
+    "CoOp,The Cooperative Bank",
+    "Credit Union,Intelligent Finance,UlsterBank",
+    "Danske",
+    "First National Bank",
+    "First National Bank,First Trust",
+    "First Trust",
+    "HSBC",
+    "Lloyds TSB",
+    "Metro Bank",
+    "Metro Bank,TD-Bank",
+    "MetroBank",
+    "Monzo Bank",
+    "NA,OTHER,Permanent TSB,ptsb,TSB",
+    "NA,Weatherbys Private Bank",
+    "Nat West",
+    "Natwest_RG",
+    "OTHER,Royal Bank Of Canada",
+    "REPUBLIC BANK LIMITITED",
+    "Revolut",
+    "Revolut Business",
+    "Royal Bank Of Canada",
+    "STANDARD CHARTERED",
+    "Santander,SantanderBank",
+    "Scotia Bank",
+    "Standard Bank",
+    "Standard Bank of South Africa",
+    "Starling Bank",
+    "TD Canada Trust",
+    "TD-Bank",
+    "TSB",
+    "Tide bank",
+    "TideBank",
+    "Virgin Money",
+    "Wise Business",
+    "capitec",
+    "wise"
+  ],
+  "total_projects": 187,
+  "total_unsupported": 14,
+  "total_supported": 60
+}

@@ -1,0 +1,42 @@
+{
+  "harvest_date": "2026-06-02",
+  "total_projects_today": 13,
+  "excel_report_path": "output/DigitalNotAutoProcessedReport_20260602.xlsx",
+  "screenshot_path": "output/screenshot_digital_tab_20260602.png",
+  "all_projects": [
+    {"project": "Amaris.AI Pte Ltd", "bank": "OCBC Bank", "pages": 6, "supported": true},
+    {"project": "Eleva Services (UK) Limited", "bank": "OCBC Bank", "pages": 2, "supported": true},
+    {"project": "YE 2026", "bank": "Barclays,Halifax,JAJA", "pages": 8, "supported": false, "unsupported_bank": "JAJA"},
+    {"project": "JH", "bank": "ANZ", "pages": 12, "supported": true},
+    {"project": "Greenwich & Co", "bank": "National Bank Fujariah", "pages": 3, "supported": false},
+    {"project": "Dr Mc Medical Services Limited", "bank": "Revolut Business", "pages": 6, "supported": true},
+    {"project": "Graffiti Designs Pty Ltd", "bank": "First National Bank", "pages": 2, "supported": true},
+    {"project": "Stodasize (Pty) Ltd", "bank": "First National Bank", "pages": 8, "supported": true},
+    {"project": "Brown Coffee House LLC", "bank": "OTHER", "pages": 15, "supported": false, "skip_reason": "Not a bank statement"},
+    {"project": "9551-6084 Québec Inc. (PUFFS)", "bank": "Royal Bank Of Canada", "pages": 46, "supported": true},
+    {"project": "Ebfitness", "bank": "nab", "pages": 68, "supported": true},
+    {"project": "Flat E 22 Cleveland Square Limited", "bank": "National Bank", "pages": 2, "supported": true, "matched_script": "NationalBankOfCanada"},
+    {"project": "FNB GOLD BUSINESS ACCOUNT YEAR 2025", "bank": "First National Bank", "pages": 21, "supported": true}
+  ],
+  "supported_banks_skipped": 9,
+  "unsupported_banks": [
+    {
+      "bank_name": "National Bank Fujariah",
+      "project": "Greenwich & Co",
+      "project_id": "3a1d2776-b1d2-3353-c502-8c2d1c0ad6b9",
+      "pages": 3,
+      "pdf_path": ".claude/References/NewBanksIdentified/National_Bank_Fujariah/National_Bank_Fujariah_statement.pdf",
+      "country": "UAE",
+      "notes": "UAE-based bank. File: Bank statements - 30.06.2025.pdf. Account: 06616110973837"
+    },
+    {
+      "bank_name": "JAJA",
+      "project": "YE 2026",
+      "project_id": "3a1ab417-462e-dbda-310b-413c57b11c78",
+      "pages": 4,
+      "pdf_path": ".claude/References/NewBanksIdentified/JAJA/JAJA_statement_May2026.pdf",
+      "country": "UK",
+      "notes": "JAJA is a UK credit card provider. File: 28 May 2026.pdf. Account: 9650 (partial)"
+    }
+  ]
+}

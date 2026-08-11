@@ -1,0 +1,21 @@
+$source = "Zempler Bank"
+$features = "REVERSE_ORDER"
+
+// Delete footer text
+delete all lines starting "Zempler Bank Ltd is registered"
+delete all lines starting "Zempler Bank provides credit"
+
+// Get account name (the account holder name, not the company)
+$accountName = get line containing "Account held under company name:" => get words after "name:" => take words 2 => get text
+
+// Get account number
+$accountNumber = get line containing "Account number:" => get words after "number:" => take words 1 => get text
+// Get period from/to
+$periodFrom = get line containing "Currency:" => get words after "GBP" => take words 1 => get date "d/MM/yyyy"
+$periodTo = get line containing "Currency:" =>  get words after "GBP" => take words 3 => get text
+
+// Get opening and closing balances
+$openingBalance = get line containing "Opening Balance:" => get words after "Opening Balance:" => take words 1 => get text
+$closingBalance = get line containing "Closing Balance:" => get words after "Closing Balance:" => take words 1 => get text
+
+

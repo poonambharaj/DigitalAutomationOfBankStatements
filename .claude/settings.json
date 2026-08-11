@@ -1,33 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Read(*)",
-      "Write(*)",
-      "Glob(*)",
-      "Grep(*)",
-      "Bash(python *)",
-      "Bash(python3 *)",
-      "Bash(ls *)",
-      "Bash(find *)",
+      "mcp__playwright__*",
+      "mcp__global-atlassian__*",
+      "mcp__github__*",
+      "mcp__github-mcp-server__*",
+      "Bash(pip install*)",
+      "Bash(py .claude/References/generate_script.py*)",
+      "Bash(python -m pytest*)",
       "Bash(cp *)",
-      "Bash(mv *)",
-      "Bash(mkdir *)",
-      "Bash(cat *)",
-      "Bash(echo *)",
-      "Bash(git status*)",
+      "Bash(mkdir -p *)",
+      "Bash(test -f *)",
+      "Bash(git status)",
       "Bash(git log*)",
       "Bash(git diff*)",
-      "mcp__playwright__browser_navigate(*)",
-      "mcp__playwright__browser_snapshot(*)",
-      "mcp__playwright__browser_click(*)",
-      "mcp__playwright__browser_type(*)",
-      "mcp__playwright__browser_wait_for(*)",
-      "mcp__playwright__browser_evaluate(*)",
-      "mcp__playwright__browser_select_option(*)",
-      "mcp__playwright__browser_take_screenshot(*)",
-      "mcp__playwright__browser_fill_form(*)",
-      "mcp__playwright__browser_network_requests(*)",
-      "mcp__playwright__browser_file_upload(*)"
+      "Bash(git branch*)"
     ]
   }
 }

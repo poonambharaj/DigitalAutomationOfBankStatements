@@ -10,9 +10,10 @@ description: >
 tools: >
   Read,
   Write,
-  Bash
-model: claude-haiku-4-5-20251001
-permissionMode: default
+  Bash,
+  mcp__global-atlassian__jira_add_comment
+model: global.anthropic.claude-sonnet-4-6
+permissionMode: acceptEdits
 ---
 
 # Digital script builder
@@ -204,7 +205,8 @@ Create `output/digital_scripts/` if it does not exist, then save the manifest to
       "document_type": "bank_statement | invoice | credit_note",
       "verification_rule_set_id": 4,
       "status": "success | failed",
-      "error": null
+      "error": null,
+      "jira_comment_posted": true
     }
   ],
   "next_available_script_id": 151,
@@ -215,6 +217,45 @@ Create `output/digital_scripts/` if it does not exist, then save the manifest to
 
 Return this JSON object as your final response to the main orchestrator.
 The orchestrator will pass `results` to `test-engineer` as the next stage.
+
+---
+
+### Step 8 — Comment on Jira ticket
+
+For each project that has a `jira_ticket_key` field in the input manifest (passed
+from `jira-ticket-creator`), post a comment using `mcp__global-atlassian__jira_add_comment`:
+
+- **issue_key:** `{jira_ticket_key}`
+- **comment body (Jira wiki markup):**
+
+```
+h4. ✓ Script generated
+
+*Project:* {project_name}
+*Bank:* {bank}
+*SQL File:* {sql_file}
+Script ID: {script_id}, Definition ID: {def_id}
+
+All required $variables extracted.
+
+h4. Next step
+Run test-engineer to validate extraction.
+```
+
+Replace all `{placeholders}` with values from the project's manifest entry:
+- `{jira_ticket_key}` → `jira_ticket_key`
+- `{project_name}` → `project_name`
+- `{bank}` → `bank` (from the source manifest entry, pass it through from harvester)
+- `{sql_file}` → `sql_file`
+- `{script_id}` → `script_id`
+- `{def_id}` → `def_id_start`
+
+If `jira_ticket_key` is absent or blank for a project, skip this step for that
+project — do not fail the pipeline.
+
+If the comment call fails (e.g. ticket was deleted, auth issue), log a warning in
+the manifest under `"jira_comment_error"` and continue — do not mark the project
+as failed.
 
 ---
 

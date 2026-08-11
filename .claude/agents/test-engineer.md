@@ -10,9 +10,10 @@ description: >
 tools: >
   Read,
   Write,
-  Bash
-model: claude-haiku-4-5-20251001
-permissionMode: default
+  Bash,
+  mcp__global-atlassian__jira_add_comment
+model: global.anthropic.claude-sonnet-4-6
+permissionMode: acceptEdits
 ---
 
 # Test engineer
@@ -596,7 +597,8 @@ Save to `output/test_manifest_<YYYYMMDD_HHMM>.json`:
       "status": "passed | failed | skipped | error",
       "failed_tests": [],
       "missing_variables": [],
-      "notes": ""
+      "notes": "",
+      "jira_comment_posted": true
     }
   ],
   "next_step": "Proceed to code-guardian | Fix failing tests before proceeding"
@@ -612,6 +614,55 @@ Skipped projects do NOT count against `all_passed` — they were already marked
 failed by `digital-script-builder`.
 
 Return this JSON as your final response to the main orchestrator.
+
+---
+
+### Step 8 — Post test results to Jira ticket
+
+For each project in the test manifest that has a `jira_ticket_key` field, post a
+comment using `mcp__global-atlassian__jira_add_comment`.
+
+Only post if the project `status` is `"passed"`. For failed or skipped projects,
+omit the comment — the failure details are already surfaced in the manifest for the
+orchestrator to handle.
+
+- **issue_key:** `{jira_ticket_key}`
+- **comment body (Jira wiki markup):**
+
+```
+h4. ✓ Unit tests passed
+
+*Project:* {project_name}
+*Test Results:* {passed}/{total} tests passed
+*Extraction Status:* All required variables found
+- $source: ✓
+- $accountName: ✓
+- $accountNumber: ✓
+- $periodFrom: ✓
+- $periodTo: ✓
+- $openingBalance: ✓
+- $closingBalance: ✓
+- $transactions: ✓
+
+h4. Next step
+Run code-guardian for final review before deployment.
+```
+
+Replace `{placeholders}` with values from the project entry and the manifest summary:
+- `{jira_ticket_key}` → `jira_ticket_key`
+- `{project_name}` → `project_name`
+- `{passed}` → count of passing tests for this project (from pytest JSON report)
+- `{total}` → total tests collected for this project
+
+For `invoice` or `credit_note` document types, replace the variable checklist with
+the appropriate required variables (`$invoiceType`, `$name`, `$currency`, etc.) —
+do not list bank-statement variables for non-bank-statement documents.
+
+If `jira_ticket_key` is absent or blank for a project, skip silently — do not fail
+the pipeline.
+
+If the comment call fails, set `"jira_comment_posted": false` and record the error
+in `"jira_comment_error"` on the project entry. Continue with remaining projects.
 
 ---
 
