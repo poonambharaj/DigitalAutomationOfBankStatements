@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": [ "-y", "@modelcontextprotocol/server-github" ],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [ "-y", "@playwright/mcp@latest" ]
+    },
+    "atlassian": {
+      "command": "npx",
+      "args": [ "-y", "@atlassian/mcp-server" ],
+      "env": {
+        "ATLASSIAN_URL": "${env:JIRA_URL}",
+        "ATLASSIAN_EMAIL": "${env:JIRA_USERNAME}",
+        "ATLASSIAN_API_TOKEN": "${env:JIRA_PERSONAL_TOKEN}"
+      }
+    }
+  }
+}

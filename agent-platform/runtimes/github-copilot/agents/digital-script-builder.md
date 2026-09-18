@@ -13,12 +13,15 @@ Generate SQL/DSL extraction scripts for unsupported-bank PDFs and return a struc
 
 ## Workflow
 1. Verify runtime dependencies exist:
-   - `.claude/References/generate_script.py`
-   - `.claude/References/Plan.md`
+   - `References/generate_script.py`
+   - `References/Plan.md`
    - `requirements.txt`
-   - `.claude/References/.env`
-   - `.claude/References/DigitalScriptSample/DigitalScripts.sql`
-   - `.claude/References/DigitalScriptSample/DigitalDocDefination.sql`
+   - `References/DigitalScriptSample/DigitalScripts.sql`
+   - `References/DigitalScriptSample/DigitalDocDefination.sql`
+
+   `References/.env` (`ANTHROPIC_API_KEY`) is NOT required for this runtime — the
+   GitHub Copilot model authors the script directly from the PDF; it never shells
+   out to `generate_script.py`'s Anthropic call. Only the Claude runtime needs it.
 2. For each unsupported project:
    - validate `pdf_saved` exists
    - if missing: mark failed and continue
@@ -28,7 +31,7 @@ Generate SQL/DSL extraction scripts for unsupported-bank PDFs and return a struc
    - new layout: create script+definition rows
    - known layout: definition rows only pointing to existing ScriptId
 5. Run generator:
-   `py .claude/References/generate_script.py "<pdf_saved>" --next-script-id X --next-def-id Y`
+   `py References/generate_script.py "<pdf_saved>" --next-script-id X --next-def-id Y`
 6. Validate output SQL:
    - required INSERTs present (per layout case)
    - no markdown fences

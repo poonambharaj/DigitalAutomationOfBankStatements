@@ -1,0 +1,17 @@
+# MCP server config (may contain env var mappings — keep out of source control)
+.github/mcp.json
+
+# Node dependencies
+node_modules/
+
+# Generated pipeline run artifacts (manifests, draft scripts, downloaded reports)
+output/
+
+# Browser automation state
+.playwright/
+.playwright-mcp/
+
+# IDE / build caches
+.vs/
+.vscode/
+.pytest_cache/

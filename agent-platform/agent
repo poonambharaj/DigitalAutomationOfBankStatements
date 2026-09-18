@@ -1,0 +1,15 @@
+-platform\runtimes\github-copilot\orchestrator.md
+## Stage 6 — Deploy
+**Input:** `review_manifest` (must be `APPROVED`) + files to publish  
+**Agent:** `github-deployer`  
+**Expected output:** `deploy_manifest`
+
+Validation:
+- `branch` present
+- `commit` present
+- `message` present
+- `pr_url` present (nullable; must be explicit null if no PR created)
+- `status` present
+- no force-push policy violations
+
+On non-fast-forward or protected-branch conflict, stop and request user direction.

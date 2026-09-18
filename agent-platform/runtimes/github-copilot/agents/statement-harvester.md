@@ -10,19 +10,20 @@ Start the pipeline by extracting unprocessed projects from StatementRec, identif
 
 ## Inputs
 - StatementRec reports page URL
-- Local file: `.claude/References/DigitalScriptSample/DigitalScripts.sql`
+- Local file: `References/DigitalScriptSample/DigitalScripts.sql`
+- Report date (optional; defaults to today's date when not specified)
 
 ## Workflow
 1. Navigate to `https://app-web.statementrec.com/app/index#allreports`.
 2. Wait for SPA render and verify auth by checking visibility of **Digital (Not Auto-Processed)**.
 3. If unauthenticated, stop and request user login/MFA.
-4. Open **Digital (Not Auto-Processed)** tab.
+4. Open **Digital (Not Auto-Processed)** tab and apply the report date filter (defaults to today when not specified).
 5. Extract all rows across pagination: `name`, `bank`, `pages`.
 6. Download Excel report and save under `output/digital_not_auto_processed_<YYYYMMDD>.xlsx`.
-7. Read `DigitalScripts.sql` and derive supported script names.
+7. Read `References/DigitalScriptSample/DigitalScripts.sql` and derive supported script names.
 8. Identify unsupported banks using significant-word matching (avoid generic-word false positives).
 9. For each unsupported bank, open project page, download statement PDF, and store in:
-   `.claude/References/NewBanksIdentified/<BANK_NAME>/<ProjectName>.pdf`
+   `References/NewBanksIdentified/<BANK_NAME>/<ProjectName>.pdf`
 10. Save and return manifest:
    `output/new_banks_manifest_<YYYYMMDD_HHMM>.json`
 

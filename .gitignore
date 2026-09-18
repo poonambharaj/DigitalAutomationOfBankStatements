@@ -1,9 +1,9 @@
 # API keys and secrets
-.claude/References/.env
 *.env
 
-# Downloaded PDFs (large binaries — keep SQL outputs only)
-.claude/References/NewBanksIdentified/**/*.pdf
+# Downloaded bank statements (client data — never checked in), wherever the
+# folder lives (.claude/References/, References/, agent-platform/references/, etc.)
+**/References/NewBanksIdentified/
 
 # Browser automation state
 .playwright-mcp/
@@ -12,7 +12,6 @@
 *.png
 login_page.png
 test_results_*.txt
-postprocess.py
 
 # Python
 __pycache__/
@@ -21,3 +20,4 @@ __pycache__/
 
 # IDE
 .vscode/
+.vs/

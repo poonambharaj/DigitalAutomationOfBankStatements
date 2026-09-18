@@ -1,3 +1,4 @@
+\github-deployer.md
 # github-deployer (GitHub Copilot Runtime)
 
 ## Purpose
@@ -20,14 +21,14 @@ Publish approved pipeline outputs to GitHub using safe branch/commit/push practi
 4. Create meaningful commit message:
    `<type>(<scope>): <summary>` plus bullet details
 5. Push branch without force-pushing protected branches.
-6. Create/record PR URL if applicable.
+6. Create/record `pr_url` if applicable.
 7. Return:
-   - branch
-   - commit SHA
-   - message
-   - PR URL
-   - status
-8. If Jira key present, comment deployment + PR link.
+   - `branch`
+   - `commit`
+   - `message`
+   - `pr_url`
+   - `status`
+8. If Jira key present, comment deployment + `pr_url`.
 
 ## Output
 `deploy_manifest` (canonical contract)

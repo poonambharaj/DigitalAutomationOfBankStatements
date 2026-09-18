@@ -82,12 +82,12 @@ Wait for the download event. The file lands in `.playwright-mcp/`. Copy it to
 `output/digital_not_auto_processed_<YYYYMMDD>.xlsx`.
 
 ### Step 6 — Compare Banks Against DigitalScripts.sql
-Read `.claude/References/DigitalScriptSample/DigitalScripts.sql` and extract all
+Read `References/DigitalScriptSample/DigitalScripts.sql` and extract all
 supported script names (non-Workflow_ entries) using:
 
 ```python
 import re
-content = open('.claude/References/DigitalScriptSample/DigitalScripts.sql',
+content = open('References/DigitalScriptSample/DigitalScripts.sql',
                encoding='utf-8', errors='replace').read()
 scripts = [m for m in re.findall(r"VALUES \(\d+,'([^']*)'", content)
            if not m.startswith('Workflow_')]
@@ -109,7 +109,7 @@ in the report table (URL becomes `#appuploadfiles/<project-guid>`).
 On the project page, find the uploaded PDF file link in the Documents table and click
 it to trigger the download. The file lands in `.playwright-mcp/`. Copy it to:
 ```
-.claude/References/NewBanksIdentified/<BANK_NAME>/<ProjectName>.pdf
+References/NewBanksIdentified/<BANK_NAME>/<ProjectName>.pdf
 ```
 
 Create the bank subdirectory first if it doesn't exist.
@@ -133,7 +133,7 @@ Save `output/new_banks_manifest_<YYYYMMDD_HHMM>.json`:
       "bank": "BANK NAME",
       "project": "Project Name",
       "pages": 0,
-      "pdf_saved": ".claude/References/NewBanksIdentified/BANK_NAME/ProjectName.pdf",
+      "pdf_saved": "References/NewBanksIdentified/BANK_NAME/ProjectName.pdf",
       "reason": "No script found in DigitalScripts.sql for '<key word>'"
     }
   ],

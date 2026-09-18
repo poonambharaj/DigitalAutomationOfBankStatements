@@ -10,7 +10,7 @@ This repository automates the digital processing of financial statements sourced
 
 ```
 CLAUDE.md  (orchestrator — this file)
-└── .claude/agents/
+└── agent-platform/runtimes/claude/agents/
     ├── statement-harvester   Playwright MCP · Read · Glob
     ├── digital-script-builder  Read · Write · Bash
     ├── test-engineer           Read · Write · Bash
@@ -18,7 +18,7 @@ CLAUDE.md  (orchestrator — this file)
     └── github-deployer         GitHub MCP · Bash
 ```
 
-Sub-agents are invoked via the `Agent` tool. Each agent file in `.claude/agents/` contains YAML frontmatter (`name`, `description`, `tools`, `model`) followed by that agent's full system prompt. Agents only have access to the tools listed in their frontmatter.
+Sub-agents are invoked via the `Agent` tool. Each agent file in `agent-platform/runtimes/claude/agents/` contains YAML frontmatter (`name`, `description`, `tools`, `model`) followed by that agent's full system prompt. Agents only have access to the tools listed in their frontmatter.
 
 ## Delegation rules
 
@@ -63,7 +63,7 @@ When a task requires StatementRec access:
 
 ## Adding or modifying sub-agents
 
-Each file in `.claude/agents/` must begin with YAML frontmatter followed by the system prompt:
+Each file in `agent-platform/runtimes/claude/agents/` must begin with YAML frontmatter followed by the system prompt:
 
 ```markdown
 ---

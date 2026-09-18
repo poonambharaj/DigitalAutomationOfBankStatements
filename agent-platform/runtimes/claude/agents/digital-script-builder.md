@@ -32,12 +32,12 @@ missing, STOP and report the missing items to the orchestrator.
 
 | Path | Purpose |
 |---|---|
-| `.claude/References/generate_script.py` | PDF analysis script — invoke as-is, never modify |
-| `.claude/References/Plan.md` | DSL reference loaded by generate_script.py at runtime |
+| `References/generate_script.py` | PDF analysis script — invoke as-is, never modify |
+| `References/Plan.md` | DSL reference loaded by generate_script.py at runtime |
 | `requirements.txt` | Python dependencies (anthropic, python-dotenv) |
-| `.claude/References/.env` | Must contain `ANTHROPIC_API_KEY=sk-ant-…` (never commit this file) |
-| `.claude/References/DigitalScriptSample/DigitalScripts.sql` | Sample scripts sent as cached context |
-| `.claude/References/DigitalScriptSample/DigitalDocDefination.sql` | Sample definitions sent as cached context |
+| `References/.env` | Must contain `ANTHROPIC_API_KEY=sk-ant-…` (never commit this file) |
+| `References/DigitalScriptSample/DigitalScripts.sql` | Sample scripts sent as cached context |
+| `References/DigitalScriptSample/DigitalDocDefination.sql` | Sample definitions sent as cached context |
 
 Check for all six paths before starting. Use `Bash` with `test -f <path>` or
 `Read` to verify each file exists.
@@ -67,7 +67,7 @@ Accept the new-banks manifest produced by statement-harvester:
       "bank": "BANK NAME",
       "project": "Project Name",
       "pages": 12,
-      "pdf_saved": ".claude/References/NewBanksIdentified/BANK_NAME/ProjectName.pdf",
+      "pdf_saved": "References/NewBanksIdentified/BANK_NAME/ProjectName.pdf",
       "reason": "No script found in DigitalScripts.sql for 'bank name'"
     }
   ]
@@ -85,7 +85,7 @@ For each project, validate before processing:
 
 ### Step 2 — Query the database for next available IDs
 
-Before running any `.claude/References/generate_script.py` call, determine the next safe INSERT IDs:
+Before running any `References/generate_script.py` call, determine the next safe INSERT IDs:
 
 ```bash
 mysql -u <user> -p<password> -se \
@@ -104,7 +104,7 @@ values before executing any INSERT statements.
 
 ### Step 3 — Check whether an existing script already covers this layout
 
-Before running `.claude/References/generate_script.py`, check whether the PDF layout is already
+Before running `References/generate_script.py`, check whether the PDF layout is already
 registered in the database:
 
 ```bash
@@ -115,12 +115,12 @@ mysql -u <user> -p<password> -se \
 Compare against the project name and known bank/supplier. Two scenarios:
 
 **A — New layout (no existing script):**
-Run `.claude/References/generate_script.py` with both IDs. The output will contain one
+Run `References/generate_script.py` with both IDs. The output will contain one
 `INSERT INTO digitalpdf$script` row and one or more
 `INSERT INTO digitalpdf$documentidentification` rows.
 
 **B — Known layout, new PDF variant (same bank, different browser/OS):**
-Run `.claude/References/generate_script.py` passing the *existing* ScriptId as `--next-script-id`.
+Run `References/generate_script.py` passing the *existing* ScriptId as `--next-script-id`.
 The model will recognise the match and output only new
 `INSERT INTO digitalpdf$documentidentification` rows pointing to that ScriptId.
 Do NOT increment `next_script_id` in this case.
@@ -130,14 +130,14 @@ Do NOT increment `next_script_id` in this case.
 ### Step 4 — Run generate_script.py for each project
 
 ```bash
-py .claude/References/generate_script.py "<pdf_saved>" \
+py References/generate_script.py "<pdf_saved>" \
   --next-script-id <next_script_id> \
   --next-def-id <next_def_id>
 ```
 
 **How generate_script.py works** (do not attempt to replicate this logic):
-- Loads `Plan.md`, first 80 KB of `.claude/References/DigitalScripts.sql`, and
-  first 80 KB of `.claude/References/DigitalDocDefination.sql` as three
+- Loads `Plan.md`, first 80 KB of `References/DigitalScripts.sql`, and
+  first 80 KB of `References/DigitalDocDefination.sql` as three
   `cache_control: ephemeral` system blocks — repeated calls reuse the same cache entry
 - Base64-encodes the PDF and sends it as a `document` content block
 - Calls Claude (`global.anthropic.claude-sonnet-4-6`, `max_tokens 8192`) with a
@@ -250,7 +250,7 @@ requiring a separate definition row but sharing one script.
 | Situation | Action |
 |---|---|
 | `pdf_path` missing or file not found | Skip project, mark failed, continue |
-| `.claude/References/generate_script.py` exits non-zero | Capture stderr, mark failed, continue |
+| `References/generate_script.py` exits non-zero | Capture stderr, mark failed, continue |
 | Output `.sql` file empty or not created | Mark failed with reason, continue |
 | SQL output contains markdown fences | Mark failed: "output contains markdown fences", continue |
 | `9999` found in output when real IDs were supplied | Mark failed: "placeholder Id 9999 in output", continue |
@@ -261,7 +261,7 @@ requiring a separate definition row but sharing one script.
 
 ## Safety rules
 - NEVER execute the generated SQL automatically — output files only
-- NEVER modify `.claude/References/generate_script.py` — invoke it as-is
+- NEVER modify `References/generate_script.py` — invoke it as-is
 - NEVER delete or overwrite an existing `.sql` file — always use timestamped names
 - ALWAYS confirm each file is written (use `Read`) before moving to the next project
 - If unsure about a PDF path, report it rather than guessing

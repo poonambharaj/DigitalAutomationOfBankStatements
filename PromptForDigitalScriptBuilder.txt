@@ -1,0 +1,25 @@
+Use runtimes=github-copilot.
+
+Step 1: Generate SQL Script
+
+Run the Digital Script Builder agent located at:
+C:\dev\AutomationOfDigitalScripts\agent-platform\runtimes\github-copilot\agents
+Generate the SQL script for the bank statements located in:
+C:\dev\AutomationOfDigitalScripts\References\NewBanksIdentified\Newcastle_Permanent\
+Review and use the existing SQL file:
+C:\dev\AutomationOfDigitalScripts\References\NewBanksIdentified\Newcastle_Permanent\NewcastlePermanent.sql
+as a reference to create an optimized and high-quality script.
+Step 2: Testing
+
+After the SQL script is generated, hand off the work to the test-engineer agent.
+Create comprehensive test cases and execute all relevant tests to validate the script.
+Step 3: Code Review
+
+Once testing is complete, hand off the solution to the code-guardian agent.
+Perform a thorough code review covering:
+SQL correctness and accuracy
+Performance and optimization opportunities
+Edge case handling
+Coding standards and maintainability
+Test coverage and quality
+Return the final SQL script, test results, and code review findings.
